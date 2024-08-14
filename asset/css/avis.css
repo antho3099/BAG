@@ -1,0 +1,43 @@
+#avis h2 {
+    background-color: darkblue;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#avis p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    color: white;
+}
+
+@media screen and (min-width: 992px) {
+    #avis {
+        background-color: darkblue;
+        margin-top: 125px;
+        border-radius: 5px;
+        width: 900px;
+        margin-left: 560px;
+    }
+
+    #avis h2 {
+        font-size: 45px;
+        background: none;
+        text-align: center;
+    }
+
+    #avis p {
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        color: white;
+    }
+}

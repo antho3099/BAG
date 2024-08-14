@@ -1,0 +1,13 @@
+-- Mentionne le nom de la base de données à utiliser pour exécuter les commandes SQL qui suivent.
+USE `530-php-BAG-ANG`;
+
+-- Insérer des données--
+INSERT INTO role(id, code, label) VALUES
+(1, 'ADMIN', 'Administrateur'),
+(2, 'USER','Utilisateur');
+
+INSERT INTO user(id, nom, prenom, email, pseudo, password, idRole) VALUES
+(1, 'Nguyen', 'Anthony', 'antho.nguyen30pro@gmail.com', 'Silverhand95', 'Silverhand3011', 1);
+
+INSERT INTO jeu(id, titre, studio, sortie, genre, age, plateforme, prix, story, avis, note, critique, idUser) VALUES
+(1, 'Tomb Raider' , 'Crystal Dynamics', '12 Mars 2013', 'aventure', '18', 'Playstation 4', '59,99 €', 'Lara...', 'Banger', '7/10', 'Metacritic:55/100', 1);

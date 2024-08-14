@@ -1,0 +1,65 @@
+.bienvenue {
+    text-align: end;
+    top: 5px;
+    background-color: darkblue;
+    animation: none;
+    bottom: 155px;
+    position: relative;
+}
+
+.bienvenue h2 {
+    font-size: 23px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    position: relative;
+    text-align: end;
+    color: gold;
+    animation: suite linear 10s infinite;
+}
+
+@keyframes suite {
+    0% {
+        right: 0px;
+    }
+
+    100% {
+        right: 500px;
+        transform: translateX(0);
+    }
+}
+
+.animation {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .bienvenue {
+        text-align: end;
+        top: 5px;
+        background-color: darkblue;
+        animation: none;
+        bottom: 155px;
+        position: relative;
+        height: 55px;
+    }
+
+    .bienvenue h2 {
+        font-size: 35px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        position: relative;
+        text-align: end;
+        color: gold;
+        animation: suite linear 10s infinite;
+    }
+
+    @keyframes suite {
+        0% {
+            right: 0px;
+        }
+
+        100% {
+            right: 100%;
+            transform: translateX(0);
+        }
+    }
+
+}

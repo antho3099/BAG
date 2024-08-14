@@ -1,0 +1,18 @@
+.section {
+    border: 1px solid black;
+    height: 250px;
+    background: url(/img/cover/BAG.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.section h3 {
+    font-family: "Russo One", sans-serif;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 80px;
+    text-align: center;
+    background-color: red
+}

@@ -1,0 +1,128 @@
+.sectionsparking {
+    background-color: rgba(0, 0, 131, 0.915);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
+}
+
+.sectionsparking img {
+    width: 100%;
+
+}
+
+.sectionsparking #sparkinggeek {
+    display: none;
+}
+
+.sectionsparking .sparking h2 {
+    font-size: 55px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
+}
+
+.sectionsparking .sparking p {
+
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    margin-bottom: 35px;
+    margin-top: 10px;
+
+}
+
+.sectionsparking .sparking a {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 20px;
+    margin-top: 55px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+    margin: auto;
+    padding: 2px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-left: 89px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    .sectionsparking {
+        background: none;
+    }
+
+    .sectionsparking #geektime {
+        display: none;
+    }
+
+    .sectionsparking {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .sectionsparking #sparkinggeek {
+        display: flex;
+        margin-right: 65px;
+
+    }
+
+    .sectionsparking img {
+        width: 680px;
+
+    }
+
+    .sectionsparking .sparking {
+        margin-top: 85px;
+        margin-right: 20px;
+    }
+
+    .sectionsparking .sparking h2 {
+        font-size: 120px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: gold;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        font-style: italic;
+        text-align: end;
+        width: 680px;
+        position: relative;
+        left: 95px;
+
+
+    }
+
+    .sectionsparking .sparking p {
+
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 45px;
+        color: white;
+        margin-bottom: 35px;
+        position: relative;
+        left: 97px;
+        text-align: start;
+        font-style: italic;
+
+    }
+
+    .sectionsparking .sparking a {
+        position: relative;
+        left: 200px;
+        top: 55px;
+        padding: 10px;
+        padding-left: 115px;
+        padding-right: 115px;
+    }
+}

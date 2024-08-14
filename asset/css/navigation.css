@@ -1,0 +1,72 @@
+.navigation {
+    background-color: blue;
+    width: 430px;
+    height: 800px;
+    display: none;
+    position: absolute;
+}
+
+.navigation ul {
+    position: relative;
+}
+
+.navigation ul li {
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navigation ul li a {
+    color: gold;
+    font-family: "Russo One", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.display {
+    display: block;
+}
+
+@media screen and (min-width: 992px) {
+    .navigation {
+        background: none;
+        position: absolute;
+        display: block;
+        top: 15px;
+        left: 255px;
+        width: 985px;
+        height: 75px;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 35px;
+        margin-top: 10px;
+        margin-left: 95px;
+    }
+
+    .navigation ul li {
+        margin: 0;
+        border: none;
+        list-style: none;
+
+
+    }
+
+    .navigation ul li a {
+        color: gold;
+        font-family: "Russo One", sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+
+    }
+}

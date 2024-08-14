@@ -1,0 +1,36 @@
+body {
+    background: rgb(0, 181, 250);
+    background: linear-gradient(347deg, rgba(0, 181, 250, 1) 0%, rgba(13, 0, 93, 1) 100%) fixed;
+}
+
+img {
+    width: 330px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 255px;
+    -webkit-animation-name: fadeaway;
+    animation-name: fadeaway;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@keyframes fadeaway {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img {
+        width: 450px;
+    }
+}

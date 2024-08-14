@@ -1,0 +1,71 @@
+#game h2 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+
+}
+
+.gameone {
+    background-color: rgba(0, 0, 139, 0.748);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+.gameone img {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+.gameone ul {
+    margin-top: 15px;
+}
+
+.gameone li {
+    list-style: none;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 992px) {
+    .gameone {
+        background-color: rgba(0, 0, 139, 0.748);
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    #game h2 {
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .gameone {
+        display: flex;
+    }
+
+    .gameone img {
+        width: 700px;
+        margin-right: 85px;
+    }
+
+    .gameone ul {
+        margin-right: 255px;
+    }
+
+    .gameone li {
+        font-size: 20px;
+    }
+}

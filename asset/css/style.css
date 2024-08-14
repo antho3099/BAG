@@ -1,0 +1,37 @@
+@import url(header.css);
+@import url(bag.css);
+@import url(sectionjeu.css);
+@import url(section.css);
+@import url(bienvenue.css);
+@import url(navigation.css);
+@import url(footer.css);
+@import url(sparking.css);
+@import url(card.css);
+@import url(game.css);
+@import url(gamenav.css);
+@import url(histoire.css);
+@import url(avis.css);
+@import url(note.css);
+@import url(jeux.css);
+@import url(gamepic.css);
+@import url(form.css);
+@import url(propos.css);
+@import url(login.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 17, 250);
+    background: linear-gradient(164deg, rgba(0, 17, 250, 1) 0%, rgba(0, 201, 255, 1) 58%, rgba(0, 255, 30, 1) 100%) no-repeat;
+}
+
+h3 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 30px;
+}

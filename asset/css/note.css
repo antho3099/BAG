@@ -1,0 +1,55 @@
+#note h2 {
+    background-color: darkblue;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#note h3 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: mediumblue;
+}
+
+#note p {
+    list-style: none;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+
+
+}
+
+@media screen and (min-width: 992px) {
+    #note {
+        width: 500px;
+        margin-top: 125px;
+        margin-left: 15px;
+    }
+
+    #note h2 {
+        font-size: 50px;
+        background-color: none;
+        border-radius: 5px;
+    }
+
+    #note h3 {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 65px;
+        text-align: center;
+        color: mediumblue;
+    }
+
+    #note p {
+        font-size: 25px;
+        text-align: center;
+    }
+}

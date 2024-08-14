@@ -1,0 +1,49 @@
+footer {
+    background-color: darkblue;
+    margin-top: 10px;
+    width: 100%;
+}
+
+footer h3 {
+    font-size: 18px;
+    color: gold;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Russo One", sans-serif;
+
+}
+
+footer img {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+    footer {
+        background-color: darkblue;
+    }
+
+    footer h3 {
+        font-size: 35px;
+        text-align: center;
+        color: gold;
+        font-family: "Russo One", sans-serif;
+        padding-top: 15px;
+    }
+
+    footer img {
+        width: 280px;
+    }
+
+    footer p {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        font-family: "Russo One", sans-serif;
+    }
+}

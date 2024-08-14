@@ -1,0 +1,234 @@
+#apropos {
+    text-align: center;
+    background-color: rgba(0, 0, 134, 0.667);
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+    padding-bottom: 15px;
+}
+
+#bagimg {
+    width: 255px;
+    margin-top: 15px;
+}
+
+#baglogo {
+    display: none;
+}
+
+#sonic {
+    display: none;
+}
+
+#goku {
+    display: none;
+}
+
+#apropos h2 {
+    margin-top: 15px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: gold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#apropos p {
+    text-align: justify;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+}
+
+.intro h2 {
+    font-size: 30px;
+}
+
+.intro p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.objectone h2 {
+    font-size: 30px;
+}
+
+.objectone p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.objecttwo h2 {
+    font-size: 30px;
+}
+
+.objecttwo p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#baggame {
+    display: none;
+}
+
+.gamestory h2 {
+    font-size: 30px;
+}
+
+.gamestory p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bagspark {
+    font-size: 25px;
+}
+
+.bagspark p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sparkimg {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    #apropos {
+        background: none;
+
+    }
+
+    #bagimg {
+        display: none;
+    }
+
+    #baglogo {
+        display: block;
+        width: 455px;
+    }
+
+    .firstone {
+        display: flex;
+    }
+
+    .intro {
+        width: 800px;
+        margin-top: 45px;
+        margin-left: 25px;
+    }
+
+    .intro h2 {
+        font-size: 55px;
+    }
+
+    .intro p {
+        font-size: 30px;
+        width: 855px;
+    }
+
+    .objectone {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #sonic {
+        display: block;
+        width: 355px;
+        margin-right: 85px;
+    }
+
+    .discover {
+        width: 800px;
+        margin-top: 55px;
+        margin-right: 125px;
+    }
+
+    .discover h2 {
+        font-size: 55px;
+    }
+
+    .discover p {
+        font-size: 30px;
+        width: 855px;
+    }
+
+    #goku {
+        display: block;
+        width: 410px;
+    }
+
+    .objecttwo {
+        display: flex;
+    }
+
+    .influencer {
+        width: 800px;
+        margin-top: 25px;
+        margin-left: 45px;
+    }
+
+    .influencer h2 {
+        font-size: 55px;
+    }
+
+    .influencer p {
+        font-size: 27px;
+        width: 900px;
+    }
+
+    .gamestory {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #baggame {
+        display: block;
+        width: 410px;
+        margin-right: 90px;
+    }
+
+    .gamingsection {
+        margin-top: 55px;
+    }
+
+    .gamingsection h2 {
+        font-size: 55px;
+    }
+
+    .gamingsection p {
+        font-size: 27px;
+        width: 900px;
+    }
+
+    #sparkimg {
+        display: block;
+        width: 410px;
+    }
+
+    .bagspark {
+        display: flex;
+    }
+
+    .sparkstory {
+        margin-top: 15px;
+    }
+
+    .sparkstory h2 {
+        font-size: 55px;
+    }
+
+    .sparkstory p {
+        font-size: 23px;
+        width: 900px;
+    }
+}

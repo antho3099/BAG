@@ -15,4 +15,5 @@ $statement = $dbConnection->prepare($query);
 $successOrFailure = $statement->execute();
 $listService = $statement->fetchAll(PDO::FETCH_ASSOC);
 
+
 require_once $_SERVER['DOCUMENT_ROOT'] . '/view/jeu/add.php';

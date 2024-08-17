@@ -47,8 +47,8 @@
 
     .navigation ul {
         display: flex;
-        gap: 35px;
-        margin-top: 10px;
+        gap: 15px;
+        margin-top: 5px;
         margin-left: 95px;
     }
 

@@ -45,7 +45,7 @@
             <div class="influencer">
                 <h2>Influencer</h2>
                 <p>
-                    L'objectif de "Influencer" est très important, sa mission est d'informer le visiteur du jeu qu'il veut et de voir si le jeu est bon ou pas afin qu'il ne puisse pas dépenser son argent maladroitement <br> (ex: Stephen, 23 ans, a dépensé plus de 80 € dans un jeu et est déçu du jeu). <br> Mais le plus important est qu'il permet de voir toute les informations
+                    L'objectif de "Influencer" est très important, sa mission est d'informer le visiteur du jeu qu'il veut et de voir si le jeu est bon ou pas afin qu'il ne puisse pas dépenser son argent maladroitement <br> (ex: Stephen, 23 ans, a dépensé plus de 80 € dans un jeu et est déçu du jeu). <br> Mais le plus important est qu'il permet de voir toutes les informations
                     du jeu et voir si le jeu est fait pour ou pour un proche (Restriction 18+) <br> (ex: Sophie, 23 ans, voit que son fils de 8 ans veut Grand Theft Auto V (jeu 18+) pour son anniversaire et a besoin de conseiller un autre jeu à son fils).
                 </p>
             </div>

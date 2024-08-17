@@ -62,7 +62,7 @@
         <div class="dash">
             <h2>Dashboard</h2>
             <p>Le tableau de board pour l'administrateur</p>
-            <a href="">C'est Parti</a>
+            <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
         </div>
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>

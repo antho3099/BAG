@@ -17,43 +17,34 @@
     <div class="navigation">
         <nav>
             <ul>
+
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="">Se connecter</a></li>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
             </ul>
         </nav>
     </div>
-    <main>
-
-        <table>
-
-
-            <!-- Entêtes de colonne écrites 'en dur' -->
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Titre</th>
-                    <th>user</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <?php foreach ($listJeu as $jeu) { ?>
-
-                    <tr>
-                        <td><?= $jeu['id'] ?></td>
-                        <td><?= $jeu['titre'] ?></td>
-                        <td><?= $jeu['pseudoUser'] ?></td>
-                        <td><a href="/ctrl/details/details.php">Détails</a></td>
-                        <td>
-                            <a class="supprimer" href="/ctrl/article/delete.php?id=<?= $jeu['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
-                        </td>
-                    </tr>
-                <?php } ?>
-            </tbody>
-        </table>
-    </main>
+    <div class="listgame">
+        <?php foreach ($listJeu as $jeu) { ?>
+            <ul>
+                <li>Id: <?= $jeu["id"] ?></li>
+                <li>Nom: <?= $jeu["titre"] ?></li>
+                <li>Studio: <?= $jeu["studio"] ?></li>
+                <li>Sortie: <?= $jeu["sortie"] ?></li>
+                <li>Genre: <?= $jeu["genre"] ?></li>
+                <li>Age: <?= $jeu["age"] ?></li>
+                <li>Plateforme: <?= $jeu["plateforme"] ?></li>
+                <li>Prix: <?= $jeu["prix"] ?></li>
+                <li>Histoire: <?= $jeu["story"] ?></li>
+                <li>Avis: <?= $jeu["avis"] ?></li>
+                <li>Note: <?= $jeu["note"] ?></li>
+                <li>Critique des studios: <?= $jeu["critique"] ?></li>
+                <li>Editeur: <?= $jeu["pseudoUser"] ?></li>
+            </ul>
+        <?php } ?>
+    </div>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 
 </html>

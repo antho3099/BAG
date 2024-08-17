@@ -8,23 +8,26 @@
 
 .navigation ul {
     position: relative;
+    top: 45px;
 }
 
 .navigation ul li {
-    border-bottom: 1px solid white;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 15px;
     list-style: none;
+    text-align: center;
 }
 
 .navigation ul li a {
     color: gold;
     font-family: "Russo One", sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-decoration: none;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
+    font-variant-caps: all-small-caps;
+
 }
 
 .display {

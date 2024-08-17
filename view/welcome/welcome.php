@@ -22,7 +22,6 @@
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
-                <li><a href="/ctrl/jeu/list.php">Tous les jeux</a></li>
             </ul>
         </nav>
     </div>
@@ -46,6 +45,24 @@
             <h2>Sparking Geek</h2>
             <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
             <a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Let's Go !</a>
+        </div>
+    </div>
+    <div class="sectionstory">
+        <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
+        <img id="geekstory" src="/img/BAG_Geek_mk2.webp" alt="">
+        <div class="origins">
+            <h2>La Baraque a Gaming</h2>
+            <p>Découvrez l'histoire de la Baraque à Gaming </p>
+            <a href="/ctrl/propos/propos.php">Let's Go !</a>
+        </div>
+    </div>
+    <div class="bagboard">
+        <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
+        <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
+        <div class="dash">
+            <h2>Dashboard</h2>
+            <p>Le tableau de board pour l'administrateur</p>
+            <a href="">C'est Parti</a>
         </div>
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>

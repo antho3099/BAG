@@ -17,6 +17,8 @@
 @import url(form.css);
 @import url(propos.css);
 @import url(login.css);
+@import url(sectionstory.css);
+@import url(bagboard.css);
 
 * {
     margin: 0;

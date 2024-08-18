@@ -94,7 +94,7 @@
         margin-bottom: 35px;
         text-align: justify;
         font-style: italic;
-        width: 655px;
+        width: 700px;
     }
 
     .sectionstory .origins a {
@@ -109,7 +109,7 @@
         padding-left: 105px;
         padding-right: 105px;
         position: relative;
-        right: 5px
+        left: 85px
     }
 
 }

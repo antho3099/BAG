@@ -25,30 +25,27 @@
         </nav>
     </div>
     <div class="bienvenue">
-        <h2>SE CONNECTER</h2>
+        <h2>CREER UN COMPTE</h2>
     </div>
-    <h3 id="hello">Bienvenue sur le formulaire de connexion pour vous connecter, n'hésitez pas à vous connecter ou créer un compte, c'est gratuit</h3>
-    <form id="connexion" action="/ctrl/login/login-display.php" method="get">
-
+    <form action="/ctrl/register/register-display.php" method="post">
+        <!--Nom-->
+        <label for="nom">Nom</label> <br>
+        <input type="text" name="nom" id="nom"> <br>
+        <!--prenom-->
+        <label for="prenom">Prenom</label> <br>
+        <input type="text" name="prenom" id="prenom"> <br>
+        <!--email-->
+        <label for="email">Email</label> <br>
+        <input type="text" id="email" name="email"> <br>
         <!--pseudo-->
-
-        <label for="pseudo">Nom d'utilisateur</label> <br>
+        <label for="pseudo">pseudo</label> <br>
         <input type="text" id="pseudo" name="pseudo"> <br>
-
-        <!--Mot de passe-->
-
-        <label for="password">Mot De Passe</label> <br>
+        <!--mot de passe-->
+        <label for="password">Mot de passe</label> <br>
         <input type="password" id="password" name="password"> <br>
-
-        <!--Se connecter-->
-
-        <input type="submit" value="Se connecter" id="submit">
+        <!--Valider-->
+        <input type="submit" id="validate" name="validate" value="Créer son compte">
     </form>
-
-    <!--Ou créer un compte si on en a pas-->
-    <h4>Vous n'avez pas de compte, pas grave, vous pouvez en créer un</h4>
-    <a id="register" href="/ctrl/register/register-display.php">Créer un nouveau compte</a>
-
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 

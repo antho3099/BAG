@@ -11,7 +11,10 @@ $routes['/'] = '/ctrl/welcome/welcome.php';
 
 // - autres routes
 $routes['/gaming/jeux'] = '/ctrl/gaming/gaming.php';
-$routes['/gaming/jeu'] = '/ctrl/jeu/jeu.php';
+$routes['/jeu/jeu'] = '/ctrl/jeu/jeu.php';
+$routes['/login/login'] = '/ctrl/login/login-display.php';
+
+
 
 
 // Cherche la route demandée

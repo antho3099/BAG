@@ -28,7 +28,7 @@
         <h2>SE CONNECTER</h2>
     </div>
     <h3 id="hello">Bienvenue sur le formulaire de connexion pour vous connecter, n'hésitez pas à vous connecter ou créer un compte, c'est gratuit</h3>
-    <form id="connexion" action="/ctrl/login/login-display.php" method="get">
+    <form id="connexion" action="/ctrl/login/login.php" method="post">
 
         <!--pseudo-->
 
@@ -44,7 +44,7 @@
 
         <input type="submit" value="Se connecter" id="submit">
     </form>
-    
+
     <!--Ou créer un compte si on en a pas-->
     <h4>Vous n'avez pas de compte, pas grave, vous pouvez en créer un</h4>
     <a id="register" href="/ctrl/register/register-display.php">Créer un nouveau compte</a>

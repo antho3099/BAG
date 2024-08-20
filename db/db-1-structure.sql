@@ -28,7 +28,7 @@ CREATE TABLE jeu(
     id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY
     ,titre varchar(100) NOT NULL
     ,studio varchar(100) NOT NULL
-    ,sortie varchar(100) NOT NULL
+    ,sortie varchar (100) NOT NULL
     ,genre varchar(100) NOT NULL
     ,age varchar(100) NOT NULL
     ,plateforme varchar(100) NOT NULL

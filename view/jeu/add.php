@@ -52,7 +52,7 @@
             <input type="text" name="prix" id="prix" placeholder="ex: 59,99€"> <br>
             <!--story-->
             <label for="story">Histoire du jeu</label> <br>
-            <textarea name="story" id="story"> </textarea> <br>
+            <textarea name="story" id="story"></textarea> <br>
             <!--avis-->
             <label for="avis">Avis</label> <br>
             <textarea name="avis" id="mind"></textarea> <br>

@@ -19,7 +19,7 @@ $fileSize = $_FILES['picture']['size'];
 $fileTmpName  = $_FILES['picture']['tmp_name'];
 $fileType = $_FILES['picture']['type'];
 
-// Copie aussi le fichier d'avatar dans un répertoire
+// Copie aussi le fichier dans un répertoire
 $uploadPath = $uploadDirectory . basename($fileName);
 $didUpload = move_uploaded_file($fileTmpName, $uploadPath);
 

@@ -20,7 +20,7 @@ function getAll(PDO $db): array
 function get($id, PDO $db): array
 {
     // Prépare la requête
-    $query = 'SELECT jeu.id, jeu.titre, jeu.studio, jeu.sortie, jeu.genre, jeu.age, jeu.plateforme, jeu.prix, jeu.story, jeu.avis, jeu.note, jeu.critique, user.pseudo AS pseudoUser , jeu.image_filename AS image';
+    $query = 'SELECT jeu.id, jeu.titre, jeu.studio, jeu.sortie, jeu.genre, jeu.age, jeu.plateforme, jeu.prix, jeu.story, jeu.avis, jeu.note, jeu.critique, user.pseudo AS pseudoUser, jeu.image_filename AS image';
     $query .= ' FROM jeu';
     $query .= ' JOIN user ON jeu.idUser = user.id';
     $query .= ' WHERE jeu.id = :idJeu';
@@ -37,7 +37,7 @@ function get($id, PDO $db): array
 function create(string $titre, string $studio, string $sortie, string $genre, string $age, string $plateforme, string $prix, string $story, string $avis, string $note, string $critique, string $idUser, string $filename, PDO $db): bool
 {
     // Prépare la requête
-    $query = 'INSERT INTO jeu (titre, studio, genre, age, plateforme, prix, story, avis, note, critique, idUser, image_filename) VALUES (:titre, :studio, :sortie, :genre, :age, :plateforme, :prix, :story, :avis, :note, :critique, :idUser, :image_filename)';
+    $query = 'INSERT INTO jeu (titre, studio, sortie, genre, age, plateforme, prix, story, avis, note, critique, idUser, image_filename) VALUES (:titre, :studio, :sortie, :genre, :age, :plateforme, :prix, :story, :avis, :note, :critique, :idUser, :image_filename)';
     $statement = $db->prepare($query);
     $statement->bindParam(':titre', $titre);
     $statement->bindParam(':studio', $studio);

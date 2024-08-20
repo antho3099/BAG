@@ -27,7 +27,7 @@
     <div class="bienvenue">
         <h2>CREER UN COMPTE</h2>
     </div>
-    <form action="/ctrl/register/register-display.php" method="post">
+    <form action="/ctrl/register/register.php" method="post">
         <!--Nom-->
         <label for="nom">Nom</label> <br>
         <input type="text" name="nom" id="nom"> <br>

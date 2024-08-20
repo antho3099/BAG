@@ -18,9 +18,11 @@
         <nav>
             <ul>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
-                <li><a href="/ctrl/jeu/add-display.php">Ajouter un jeu</a></li>
+                <?php if (isset($_SESSION['compte']) == 1) { ?>
+                    <li><a href="/ctrl/jeu/add-display.php">Ajouter un jeu</a></li>
+                <?php } ?>
+
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
             </ul>
         </nav>
@@ -32,9 +34,9 @@
         <?php foreach ($listJeu as $jeu) { ?>
             <ul>
                 <?php if ($jeu['age'] == 18) { ?>
-                    <li class="warning"><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?></a></li>
+                    <li class="warning"><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span>18+</span></a></li>
                 <?php } else { ?>
-                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?></a></li>
+                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?></a></li>
                 <?php } ?>
             </ul>
         <?php } ?>

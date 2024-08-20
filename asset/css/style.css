@@ -20,6 +20,7 @@
 @import url(sectionstory.css);
 @import url(bagboard.css);
 @import url(alert.css);
+@import url(span.css);
 
 * {
     margin: 0;

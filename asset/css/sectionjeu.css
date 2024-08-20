@@ -15,7 +15,7 @@
     display: none;
 }
 
-.sectionjeu .game h2 {
+.sectionjeu .gamer h2 {
     font-size: 55px;
     font-family: "Kdam Thmor Pro", sans-serif;
     text-align: center;
@@ -25,7 +25,7 @@
     font-variant-caps: all-small-caps;
 }
 
-.sectionjeu .game p {
+.sectionjeu .gamer p {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 18px;
     text-align: center;
@@ -36,7 +36,7 @@
     margin-top: 10px;
 }
 
-.sectionjeu .game a {
+.sectionjeu .gamer a {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 20px;
     margin-top: 55px;
@@ -52,6 +52,26 @@
     margin-left: 89px;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+@media screen and (min-width:400px) {
+    .sectionjeu .gamer a {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 20px;
+        margin-top: 55px;
+        text-align: center;
+        text-decoration: none;
+        background-color: gold;
+        color: black;
+        border: 2px solid black;
+        margin: auto;
+        padding: 2px;
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-left: 70px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -73,7 +93,7 @@
         margin-left: 55px;
     }
 
-    .sectionjeu .game {
+    .sectionjeu .gamer {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -83,7 +103,7 @@
         margin-top: 60px;
     }
 
-    .sectionjeu .game h2 {
+    .sectionjeu .gamer h2 {
         font-size: 100px;
         margin-top: 10px;
         text-align: start;
@@ -91,7 +111,7 @@
         margin-left: 10px;
     }
 
-    .sectionjeu .game p {
+    .sectionjeu .gamer p {
         font-family: "Kdam Thmor Pro", sans-serif;
         color: white;
         font-size: 35px;
@@ -101,7 +121,7 @@
         width: 655px;
     }
 
-    .sectionjeu .game a {
+    .sectionjeu .gamer a {
         font-family: "Kdam Thmor Pro", sans-serif;
         font-size: 27px;
         text-align: start;

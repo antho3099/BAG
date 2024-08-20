@@ -34,7 +34,7 @@ CREATE TABLE jeu(
     ,plateforme varchar(100) NOT NULL
     ,prix varchar(100) NOT NULL
     ,story varchar(1000) NOT NULL
-    ,avis varchar(100) NOT NULL
+    ,avis varchar(1000) NOT NULL
     ,note varchar(100) NOT NULL
     ,critique varchar(100) NOT NULL
     ,idUser bigint(20) NOT NULL

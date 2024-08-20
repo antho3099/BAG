@@ -34,7 +34,15 @@
         <?php foreach ($listJeu as $jeu) { ?>
             <ul>
                 <?php if ($jeu['age'] == 18) { ?>
-                    <li class="warning"><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span>18+</span></a></li>
+                    <li class="warning"><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="hard">18</span></a></li>
+                <?php } else if ($jeu['age'] == 16) { ?>
+                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="sixteen">16</span></a></li>
+                <?php } else if ($jeu['age'] == 12) { ?>
+                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="twelve">12</span></a></li>
+                <?php } else if ($jeu['age'] == 7) { ?>
+                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="seven">7</span></a></li>
+                <?php } else if ($jeu['age'] == 3) { ?>
+                    <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="seven">3</span></a></li>
                 <?php } else { ?>
                     <li><a href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?></a></li>
                 <?php } ?>

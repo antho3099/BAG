@@ -34,7 +34,7 @@
     <div class="sectionjeu">
         <img id="one" src="/img/BAG-Section_game.webp" alt="">
         <img id="geek" src="/img/BAG_Gaming_section.webp" alt="">
-        <div class="game">
+        <div class="gamer">
             <h2>JEUX VIDEOS</h2>
             <p>Venez découvrir le monde du jeu vidéo </br> avec
                 des jeux à couper le souffle</p>
@@ -59,15 +59,17 @@
             <a href="/ctrl/propos/propos.php">Let's Go !</a>
         </div>
     </div>
-    <div class="bagboard">
-        <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
-        <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
-        <div class="dash">
-            <h2>Dashboard</h2>
-            <p>Le tableau de board pour l'administrateur</p>
-            <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
+    <?php if (isset($_SESSION['compte']) == 1) { ?>
+        <div class="bagboard">
+            <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
+            <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
+            <div class="dash">
+                <h2>Dashboard</h2>
+                <p>Le tableau de board pour l'administrateur</p>
+                <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
+            </div>
         </div>
-    </div>
+    <?php } ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 

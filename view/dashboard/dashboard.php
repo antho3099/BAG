@@ -17,8 +17,11 @@
     <div class="navigation">
         <nav>
             <ul>
-
-                <li><a href="/ctrl/login/login-display.php">Se connecter</a></li>
+                <?php if (isset($_SESSION['compte']) == null) { ?>
+                    <li><a href="/ctrl/login/login-display.php">Se connecter</a></li>
+                <?php } else { ?>
+                    <li><a href="/ctrl/logout.php">Se déconnecter</a></li>
+                <?php } ?>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>

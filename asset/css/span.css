@@ -1,0 +1,102 @@
+.hard {
+    background-color: red;
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.sixteen {
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    text-align: center;
+    background-color: orangered;
+}
+
+.twelve {
+    background-color: orange;
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.seven {
+    background-color: green;
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.three {
+    background-color: greenyellow;
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .hard {
+        width: 15px;
+        background-color: red;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 4px;
+        left: 5px;
+    }
+
+    .sixteen {
+        background-color: orangered;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .twelve {
+        background-color: orange;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 4px;
+        left: 5px;
+    }
+
+    .seven {
+        background-color: green;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 4px;
+        left: 5px;
+    }
+
+    .three {
+        background-color: greenyellow;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 4px;
+        left: 5px;
+    }
+}

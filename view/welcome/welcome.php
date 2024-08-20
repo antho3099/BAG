@@ -17,8 +17,8 @@
     <div class="navigation">
         <nav>
             <ul>
-            <?php if (isset($_SESSION['compte']) == null) { ?>
-                <li><a href="/ctrl/login/login-display.php">Se connecter</a></li>
+                <?php if (isset($_SESSION['compte']) == null) { ?>
+                    <li><a href="/ctrl/login/login-display.php">Se connecter</a></li>
                 <?php } ?>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
@@ -57,17 +57,15 @@
             <a href="/ctrl/propos/propos.php">Let's Go !</a>
         </div>
     </div>
-    <?php if (isset($_SESSION['compte']) == 1) { ?>
-        <div class="bagboard">
-            <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
-            <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
-            <div class="dash">
-                <h2>Dashboard</h2>
-                <p>Le tableau de board pour l'administrateur</p>
-                <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
-            </div>
+    <div class="bagboard">
+        <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
+        <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
+        <div class="dash">
+            <h2>Dashboard</h2>
+            <p>Le tableau de board pour l'administrateur</p>
+            <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
         </div>
-    <?php } ?>
+    </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 

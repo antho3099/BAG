@@ -44,7 +44,7 @@
 
         <input type="submit" value="Se connecter" id="submit">
     </form>
-
+    
     <!--Ou créer un compte si on en a pas-->
     <h4>Vous n'avez pas de compte, pas grave, vous pouvez en créer un</h4>
     <a id="register" href="/ctrl/register/register-display.php">Créer un nouveau compte</a>

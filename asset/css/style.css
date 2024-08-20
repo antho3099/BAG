@@ -19,6 +19,7 @@
 @import url(login.css);
 @import url(sectionstory.css);
 @import url(bagboard.css);
+@import url(alert.css);
 
 * {
     margin: 0;

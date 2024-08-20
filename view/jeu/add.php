@@ -43,13 +43,13 @@
             <input type="text" name="genre" id="genre"> <br>
             <!--age-->
             <label for="age">Age</label> <br>
-            <input type="text" name="age" id="age"> <br>
+            <input type="text" name="age" id="age" placeholder="ex:18"> <br>
             <!--plateforme-->
             <label for="plateforme">Plateforme</label> <br>
-            <input type="text" name="plateforme" id="plateforme"> <br>
+            <input type="text" name="plateforme" id="plateforme" placeholder="Playtsation 5 / Xbox One"> <br>
             <!--prix-->
             <label for="prix">Prix</label> <br>
-            <input type="text" name="prix" id="prix"> <br>
+            <input type="text" name="prix" id="prix" placeholder="ex: 59,99€"> <br>
             <!--story-->
             <label for="story">Histoire du jeu</label> <br>
             <textarea name="story" id="story"> </textarea> <br>
@@ -62,9 +62,6 @@
             <!--critique-->
             <label for="critique">Autres Critiques</label> <br>
             <input type="text" name="critique" id="allcritic"> <br>
-            <!--Restriction-->
-            <label for="restriction">Restriction 18+</label>
-            <input type="checkbox" name="restriction" id="restriction"> <br>
             <!--fichier-->
             <input type="file" id="picture" name="picture"> <br>
             <!--Ajouter le jeu-->

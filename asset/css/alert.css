@@ -1,0 +1,13 @@
+.alert {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+    position: absolute;
+    background-color: red;
+    border: 3px solid white;
+    width: 275px;
+    display: none;
+    text-align: center;
+    left: 80px;
+    font-weight: bold;
+
+}

@@ -44,7 +44,7 @@
                 <li>Studio: <?= $jeu['studio'] ?></li>
                 <li>Date de sortie: <?= $jeu['sortie'] ?></li>
                 <li>Type: <?= $jeu['genre'] ?></li>
-                <li>Classification: <?= $jeu['age'] ?> </li>
+                <li>Classification: <?= $jeu['age'] ?> ans</li>
                 <li>Plateforme: <?= $jeu['plateforme'] ?> </li>
                 <li>Prix: <?= $jeu['prix'] ?></li>
             </ul>

@@ -37,16 +37,16 @@
             <input type="text" name="studio" id="studio"> <br>
             <!--sortie-->
             <label for="sortie">Date de sortie</label> <br>
-            <input type="text" name="sortie" id="sortie"> <br>
+            <input type="date" name="sortie" id="sortie"> <br>
             <!--genre-->
             <label for="genre">Type de jeu</label> <br>
             <input type="text" name="genre" id="genre"> <br>
             <!--age-->
             <label for="age">Age</label> <br>
-            <input type="text" name="age" id="age" placeholder="ex:18"> <br>
+            <input type="number" name="age" id="age" min="3" max="18"><br>
             <!--plateforme-->
-            <label for="plateforme">Plateforme</label> <br>
-            <input type="text" name="plateforme" id="plateforme" placeholder="Playtsation 5 / Xbox One"> <br>
+            <label for=" plateforme">Plateforme</label> <br>
+            <input type="text" name="plateforme" id="plateforme" placeholder="PS/XBOX/NITENDO"> <br>
             <!--prix-->
             <label for="prix">Prix</label> <br>
             <input type="text" name="prix" id="prix" placeholder="ex: 59,99€"> <br>
@@ -58,7 +58,7 @@
             <textarea name="avis" id="mind"></textarea> <br>
             <!--note-->
             <label for="note">Note</label> <br>
-            <input type="text" name="note" id="result" placeholder="?/10"> <br>
+            <input type="number" name="note" id="result" placeholder="?/10" min="0" max="10"> <br>
             <!--critique-->
             <label for="critique">Autres Critiques</label> <br>
             <input type="text" name="critique" id="allcritic"> <br>

@@ -12,9 +12,9 @@
 }
 
 .navigation ul li {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
     list-style: none;
     text-align: center;
 }
@@ -34,35 +34,6 @@
     display: block;
 }
 
-@media screen and (min-width:400px) {
-    .navigation ul {
-        position: relative;
-        top: 55px;
-    }
-
-    .navigation ul li {
-        margin-left: 5px;
-        margin-right: 35px;
-        margin-top: 15px;
-        list-style: none;
-        text-align: center;
-    }
-
-    .navigation ul li a {
-        color: gold;
-        font-family: "Russo One", sans-serif;
-        font-size: 35px;
-        text-decoration: none;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: black;
-        font-variant-caps: all-small-caps;
-
-    }
-
-    .display {
-        display: block;
-    }
-}
 
 @media screen and (min-width: 992px) {
     .navigation {
@@ -100,5 +71,9 @@
         font-variant: small-caps;
         font-variant-caps: all-small-caps;
 
+    }
+
+    #connect {
+        display: none;
     }
 }

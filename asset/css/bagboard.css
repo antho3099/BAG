@@ -102,7 +102,8 @@
         text-align: end;
         width: 680px;
         position: relative;
-        left: 25px;
+        right: 100px;
+        top: 55px;
     }
 
     .bagboard .dash p {
@@ -112,13 +113,14 @@
         margin-bottom: 35px;
         position: relative;
         left: 55px;
+        top: 20px;
         text-align: start;
         font-style: italic;
     }
 
     .bagboard .dash a {
         position: relative;
-        left: 200px;
+        left: 30px;
         top: 55px;
         padding: 10px;
         padding-left: 115px;

@@ -19,10 +19,9 @@
             <ul>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
-                <?php if (isset($_SESSION['compte']) == 1) { ?>
+                <?php if ($_SESSION['compte']['idRole'] == 1) { ?>
                     <li><a href="/ctrl/jeu/add-display.php">Ajouter un jeu</a></li>
                 <?php } ?>
-
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
             </ul>
         </nav>

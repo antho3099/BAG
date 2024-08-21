@@ -21,6 +21,7 @@
 @import url(bagboard.css);
 @import url(alert.css);
 @import url(span.css);
+@import url(critic.css);
 
 * {
     margin: 0;

@@ -30,12 +30,12 @@ CREATE TABLE jeu(
     ,studio varchar(100) NOT NULL
     ,sortie varchar (100) NOT NULL
     ,genre varchar(100) NOT NULL
-    ,age varchar(100) NOT NULL
+    ,age bigint(18) NOT NULL
     ,plateforme varchar(100) NOT NULL
     ,prix varchar(100) NOT NULL
     ,story varchar(1000) NOT NULL
     ,avis varchar(1000) NOT NULL
-    ,note varchar(100) NOT NULL
+    ,note bigint(18) NOT NULL
     ,critique varchar(100) NOT NULL
     ,idUser bigint(20) NOT NULL
     ,image_filename varchar(225)

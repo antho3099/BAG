@@ -18,9 +18,13 @@
         <nav>
             <ul>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="">Se connecter</a></li>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                <?php if (isset($_SESSION['compte']) == null) { ?>
+                    <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
+                <?php } else { ?>
+                    <li><a href="/ctrl/logout.php">Déconnexion</a></li>
+                <?php } ?>
             </ul>
         </nav>
     </div>
@@ -53,6 +57,7 @@
             </tbody>
         </table>
     </main>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 
 </html>

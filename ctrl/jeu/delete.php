@@ -14,4 +14,4 @@ $dbConnection = getConnection($dbConfig);
 $isSucces = delete($idJeu, $dbConnection);
 
 
-header('Location: ' . '/view/welcome/welcome.php');
+header('Location: ' . '/view/gaming/gaming.php');

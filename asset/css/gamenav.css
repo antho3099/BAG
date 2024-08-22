@@ -20,8 +20,19 @@
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
+#back {
+    width: 25px;
+    margin-top: 5px;
+}
+
 @media screen and (min-width: 992px) {
     .gamenav nav a {
         font-size: 25px;
+        margin-top: 2px;
+    }
+
+    #back {
+        width: 30px;
+
     }
 }

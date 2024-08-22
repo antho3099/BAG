@@ -29,12 +29,20 @@
             </ul>
         </nav>
     </div>
-    <div class="dashboardgame">
-        <img src="" alt="" id="dashgameimg">
-        <img src="" alt="" id="dashgamepcimg">
-        <div class="dashgame">
-            <h2>Jeux Vidéos</h2>
-            <a href="/ctrl/jeu/list.php">C'est parti</a>
+    <div class="ogdashboard">
+        <div class="dashboardgame">
+            <img src="/img/logo/manette.webp" alt="" id="dashgameimg">
+            <div class="dashgame">
+                <h2>Jeux Vidéos</h2>
+                <a href="/ctrl/jeu/list.php">C'est parti</a>
+            </div>
+        </div>
+        <div class="dashboarduser">
+            <img src="/img/logo/avatar.webp" alt="" id="dashuserimg">
+            <div class="dashuser">
+                <h2>Compte</h2>
+                <a href="">Allons voir</a>
+            </div>
         </div>
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>

@@ -31,11 +31,12 @@
     <div class="gamenav">
         <nav>
             <ul>
+                <li><a href="/ctrl/gaming/gaming.php"><img id="back" src="/img/logo/arrow_back.webp" alt=""></a></li>
                 <li><a href="#game">Jeu</a></li>
                 <li><a href="#story">Histoire</a></li>
                 <li><a href="#avis">Avis</a></li>
                 <li><a href="#note">Notes</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Retour</a></li>
+
             </ul>
         </nav>
     </div>
@@ -48,13 +49,13 @@
                 <li>Studio: <?= $jeu['studio'] ?></li>
                 <li>Date de sortie: <?= $jeu['sortie'] ?></li>
                 <li>Type: <?= $jeu['genre'] ?></li>
-                <li>Classification: <?= $jeu['age'] ?> ans</li>
+                <li>Classification: <?= $jeu['age'] ?></li>
                 <li>Plateforme: <?= $jeu['plateforme'] ?> </li>
                 <li>Prix: <?= $jeu['prix'] ?></li>
             </ul>
         </div>
     </div>
-    <div id="story">
+    <div id="histoire">
         <h2>HISTOIRE</h2>
         <p><?= $jeu['story'] ?></p>
     </div>
@@ -70,7 +71,6 @@
         <h2>Autres Critiques</h2>
         <p><?= $jeu['critique'] ?></p>
     </div>
-
 
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 

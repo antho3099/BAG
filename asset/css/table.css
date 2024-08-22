@@ -1,0 +1,25 @@
+table {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+table tr {
+    gap: 60px;
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+}
+
+table th {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+tbody tr {
+    gap: 25px;
+    display: flex;
+}
+
+tbody td {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 100;
+}

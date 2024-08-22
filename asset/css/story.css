@@ -1,4 +1,4 @@
-#story h2 {
+#histoire h2 {
     background-color: darkblue;
     font-family: "Kdam Thmor Pro", sans-serif;
     font-variant: small-caps;
@@ -9,9 +9,9 @@
     margin-top: 15px;
 }
 
-#story p {
+#histoire p {
     font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: justify;
@@ -19,27 +19,32 @@
 }
 
 @media screen and (min-width: 992px) {
-    #story {
+    #histoire {
+        width: 900px;
+        margin-top: 55px;
+        margin-left: 60px;
         background-color: darkblue;
-        margin-top: 65px;
-        margin-left: 50px;
         border-radius: 5px;
-        width: 990px;
-
     }
 
-    #story h2 {
+    #histoire h2 {
         font-size: 45px;
         background: none;
         text-align: center;
-        background-color: darkblue;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
     }
 
-    #story p {
-        margin-left: 45px;
-        margin-right: 45px;
+    #histoire p {
+        margin-left: 15px;
+        margin-right: 15px;
         margin-bottom: 25px;
         padding-bottom: 10px;
-        color: darkblue;
+        color: white;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 19px;
+        text-align: justify;
     }
 }

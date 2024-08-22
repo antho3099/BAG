@@ -20,7 +20,7 @@
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
                 <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
-                <?php if ($_SESSION['compte']['idRole'] == 1) { ?>
+                <?php if (isset($_SESSION['compte']['idRole']) == 1) { ?>
                     <li><a href="/ctrl/dashboard/dashboard.php">Dashboard</a></li>
                 <?php } ?>
                 <?php if (isset($_SESSION['compte']) == null) { ?>

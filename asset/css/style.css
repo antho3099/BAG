@@ -9,7 +9,6 @@
 @import url(card.css);
 @import url(game.css);
 @import url(gamenav.css);
-@import url(histoire.css);
 @import url(avis.css);
 @import url(note.css);
 @import url(jeux.css);
@@ -22,6 +21,9 @@
 @import url(alert.css);
 @import url(span.css);
 @import url(critic.css);
+@import url(story.css);
+@import url(dash.css);
+@import url(table.css);
 
 * {
     margin: 0;

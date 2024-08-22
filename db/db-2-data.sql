@@ -11,6 +11,3 @@ INSERT INTO user(id, nom, prenom, email, pseudo, password, idRole) VALUES
 
 INSERT INTO jeu(id, titre, studio, sortie, genre, age, plateforme, prix, story, avis, note, critique, idUser) VALUES
 (1, 'Tomb Raider' , 'Crystal Dynamics', '2013-03-23', 'aventure', '18', 'Playstation 4', '59,99 €', 'Lara...', 'Banger', '7', 'Metacritic:55/100', 1);
- 
-
- 

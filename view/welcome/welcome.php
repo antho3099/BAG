@@ -62,7 +62,7 @@
             <a href="/ctrl/propos/propos.php">Let's Go !</a>
         </div>
     </div>
-    <?php if ($_SESSION['compte']['idRole'] == 1) { ?>
+    <?php if (isset($_SESSION['compte']['idRole']) == 1) { ?>
         <div class="bagboard">
             <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
             <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">

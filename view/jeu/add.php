@@ -64,6 +64,12 @@
             <input type="text" name="critique" id="allcritic"> <br>
             <!--fichier-->
             <input type="file" id="picture" name="picture"> <br>
+            <!--screenshot-->
+            <label for="screenshot">Screenshot n°1</label> <br>
+            <input type="file" id="screenshot" name="screenshot"> <br>
+            <!--screen-->
+            <label for="screen"> Screenshot n°2</label> <br>
+            <input type="file" id="screen" name="screen"> <br>
             <!--Ajouter le jeu-->
             <input type="submit" value="Ajouter le jeu" id="submit">
         </form>

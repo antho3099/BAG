@@ -1,0 +1,39 @@
+#screenshots {
+    display: none;
+}
+
+.screenshotmobile {
+    width: 100%;
+}
+
+#screentwo {
+    display: none;
+}
+
+#screentwomobile {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    #screenshots {
+        width: 750px;
+        margin-top: 25px;
+        margin-left: 700px;
+        display: block;
+    }
+
+    .screenshotmobile {
+        display: none;
+    }
+
+    #screentwo {
+        width: 750px;
+        margin-top: 155px;
+        margin-left: 15px;
+        display: block;
+    }
+
+    #screentwomobile {
+        display: none;
+    }
+}

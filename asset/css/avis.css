@@ -21,10 +21,11 @@
 @media screen and (min-width: 992px) {
     #avis {
         background-color: darkblue;
-        margin-top: 55px;
         border-radius: 5px;
-        width: 900px;
-        margin-left: 550px;
+        width: 790px;
+        position: absolute;
+        top: 1390px;
+        left: 660px;
     }
 
     #avis h2 {
@@ -37,7 +38,7 @@
         margin-left: 45px;
         margin-right: 45px;
         margin-bottom: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         color: white;
     }
 }

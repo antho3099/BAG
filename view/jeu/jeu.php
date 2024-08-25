@@ -33,7 +33,7 @@
             <ul>
                 <li><a href="/ctrl/gaming/gaming.php"><img id="back" src="/img/logo/arrow_back.webp" alt=""></a></li>
                 <li><a href="#game">Jeu</a></li>
-                <li><a href="#story">Histoire</a></li>
+                <li><a href="#histoire">Histoire</a></li>
                 <li><a href="#avis">Avis</a></li>
                 <li><a href="#note">Notes</a></li>
 
@@ -55,12 +55,16 @@
             </ul>
         </div>
     </div>
+    <img id="screenshots" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="">
     <div id="histoire">
         <h2>HISTOIRE</h2>
+        <img class="screenshotmobile" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="">
         <p><?= $jeu['story'] ?></p>
     </div>
+    <img id="screentwo" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="">
     <div id="avis">
-        <h2>Avis</h2>
+        <h2>Critique du jeu</h2>
+        <img id="screentwomobile" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="">
         <p><?= $jeu['avis'] ?></p>
     </div>
     <div id="note">

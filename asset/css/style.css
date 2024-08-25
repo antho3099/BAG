@@ -24,6 +24,7 @@
 @import url(story.css);
 @import url(dash.css);
 @import url(table.css);
+@import url(screenshots.css);
 
 * {
     margin: 0;

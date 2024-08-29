@@ -3,7 +3,12 @@
 }
 
 .screenshotmobile {
-    width: 100%;
+    width: 390px;
+    margin-top: 15px;
+    margin-left: 18px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-bottom: 5px;
 }
 
 #screentwo {
@@ -11,7 +16,12 @@
 }
 
 #screentwomobile {
-    width: 100%;
+    width: 390px;
+    margin-top: 15px;
+    margin-left: 18px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-bottom: 5px;
 }
 
 @media screen and (min-width: 992px) {
@@ -28,7 +38,7 @@
 
     #screentwo {
         width: 750px;
-        margin-top: 155px;
+        margin-top: 75px;
         margin-left: 15px;
         display: block;
     }

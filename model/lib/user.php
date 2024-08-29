@@ -19,17 +19,18 @@ function getUser(string $pseudo, PDO $db): ?array
     }
     return $user;
 }
-function insertUser(string $nom, string $prenom, string $email, string $pseudo, string $password, PDO $db): bool
+function insertUser(string $nom, string $prenom, string $birth, string $email, string $pseudo, string $password, PDO $db): bool
 {
 
     $idRoleUtilisateur = 2;
 
     // Prépare la requête
-    $query = 'INSERT INTO user (nom, prenom, email, pseudo, password, idRole) VALUES (:nom, :prenom, :email, :pseudo ,:password, :idRole)';
+    $query = 'INSERT INTO user (nom, prenom, birth, email, pseudo, password, idRole) VALUES (:nom, :prenom, :birth, :email, :pseudo ,:password, :idRole)';
     $statement = $db->prepare($query);
     $statement->bindParam(':nom', $nom);
     $statement->bindParam(':prenom', $prenom);
     $statement->bindParam(':email', $email);
+    $statement->bindParam(':birth', $birth);
     $statement->bindParam(':pseudo', $pseudo);
     $statement->bindParam(':password', $password);
     $statement->bindParam(':idRole', $idRoleUtilisateur);

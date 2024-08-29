@@ -12,8 +12,8 @@
 #avis p {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 18px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
     text-align: justify;
     color: white;
 }
@@ -22,10 +22,10 @@
     #avis {
         background-color: darkblue;
         border-radius: 5px;
-        width: 790px;
+        width: 750px;
         position: absolute;
-        top: 1390px;
-        left: 660px;
+        top: 1200px;
+        left: 710px;
     }
 
     #avis h2 {

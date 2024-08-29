@@ -34,6 +34,9 @@
         <!--prenom-->
         <label for="prenom">Prenom</label> <br>
         <input type="text" name="prenom" id="prenom"> <br>
+        <!--age-->
+        <label for="birth">Âge</label> <br>
+        <input type="number" name="birth" id="birth"> <br>
         <!--email-->
         <label for="email">Email</label> <br>
         <input type="text" id="email" name="email"> <br>

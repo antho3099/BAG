@@ -37,11 +37,6 @@
     width: 100%;
 }
 
-span {
-    margin-left: 15px;
-    background-color: red;
-    width: 100%;
-}
 
 @media screen and (min-width: 992px) {
     #jeux {

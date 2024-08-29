@@ -12,8 +12,8 @@
 #histoire p {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 18px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
     text-align: justify;
     color: white;
 }
@@ -25,7 +25,7 @@
         border-radius: 5px;
         position: absolute;
         left: 15px;
-        top: 815px;
+        top: 715px;
 
     }
 

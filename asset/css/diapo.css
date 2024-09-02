@@ -1,0 +1,95 @@
+#screendiapo {
+    background-color: black;
+    margin-top: 9px;
+    padding-bottom: 15px;
+}
+
+#screendiapo h2 {
+    background-color: darkblue;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#screendiapo .imageprincipale {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#screendiapo ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+#screendiapo li {
+    border: 1px solid white;
+    list-style: none;
+    width: 90px;
+    height: 53px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#screendiapo li img {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    #screendiapo {
+        width: 700px;
+        background-color: darkblue;
+        border-radius: 6px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    #screendiapo h2 {
+        font-size: 45px;
+        background: none;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+    }
+
+    #screendiapo .imageprincipale {
+        width: 650px;
+        display: block;
+        margin: auto;
+        border: 2px solid white;
+        margin-top: 15px;
+        border-radius: 3px;
+    }
+
+    #screendiapo ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+    }
+
+    #screendiapo li {
+        border: 1px solid white;
+        list-style: none;
+        width: 120px;
+        height: 68px;
+        margin-top: 5px;
+    }
+}

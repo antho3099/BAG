@@ -25,6 +25,7 @@
 @import url(dash.css);
 @import url(table.css);
 @import url(screenshots.css);
+@import url(diapo.css);
 
 * {
     margin: 0;

@@ -58,6 +58,10 @@ CREATE TABLE jeu(
     ,image_filename varchar(225)
     ,screenshot_filename varchar(255)
     ,screen_filename varchar(255)
+    ,diapo_filename varchar(255)
+    ,diapotwo_filename varchar(255)
+    ,diapothree_filename varchar(255)
+    ,diapofour_filename varchar(255)
 );
 
 ALTER TABLE role

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kdam+Thmor+Pro&family=Russo+One&display=swap" rel="stylesheet">
     <script src="/js/menu.js" defer></script>
+    <script src="/js/diaporama.js" defer></script>
 </head>
 
 <body>
@@ -75,10 +76,18 @@
         <h2>Autres Critiques</h2>
         <p><?= $jeu['critique'] ?></p>
     </div>
+    <div id="screendiapo">
+        <h2>Images</h2>
+        <img class="imageprincipale" src="<?= '/upload/' . $jeu['image'] ?>" alt="">
+        <ul>
+            <li><img class="small" src="<?= '/diapo1/' . $jeu['diapo'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/diapo2/' . $jeu['diapotwo'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/diapo3/' . $jeu['diapothree'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/diapo4/' . $jeu['diapofour'] ?>" alt=""></li>
+        </ul>
+    </div>
 
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
-
-
 </body>
 
 </html>

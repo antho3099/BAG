@@ -70,6 +70,18 @@
             <!--screen-->
             <label for="screen"> Screenshot n°2</label> <br>
             <input type="file" id="screen" name="screen"> <br>
+            <!--Diaporama-->
+            <label for="diapo">Diaporama Image 1:</label> <br>
+            <input type="file" id="diapo" name="diapo"> <br>
+            <!--Diapo2-->
+            <label for="diapotwo">Diaporama Image 2:</label> <br>
+            <input type="file" id="diapotwo" name="diapotwo"> <br>
+            <!--Diapo3-->
+            <label for="diapothree">Diaporama Image 3:</label> <br>
+            <input type="file" id="diapothree" name="diapothree"> <br>
+            <!--Diapo4-->
+            <label for="diapofour">Diaporama Image 4:</label> <br>
+            <input type="file" id="diapofour" name="diapofour"> <br>
             <!--Ajouter le jeu-->
             <input type="submit" value="Ajouter le jeu" id="submit">
         </form>

@@ -26,6 +26,7 @@
 @import url(table.css);
 @import url(screenshots.css);
 @import url(diapo.css);
+@import url(details.css);
 
 * {
     margin: 0;

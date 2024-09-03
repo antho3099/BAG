@@ -47,7 +47,7 @@ $screentwoType = $_FILES['screen']['type'];
 $uploadPath = $uploadDirectory . basename($screentwoName);
 $didUpload3 = move_uploaded_file($screentwoTmpName, $uploadPath);
 
-$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/diapo1/';
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery1/';
 
 // Lis les informations saisies dans le formulaire
 $diapoName = $_FILES['diapo']['name'];
@@ -59,7 +59,7 @@ $diapoType = $_FILES['diapo']['type'];
 $uploadPath = $uploadDirectory . basename($diapoName);
 $didUpload4 = move_uploaded_file($diapoTmpName, $uploadPath);
 
-$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/diapo2/';
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery2/';
 
 // Lis les informations saisies dans le formulaire
 $diapotwoName = $_FILES['diapotwo']['name'];
@@ -71,7 +71,7 @@ $diapotwoType = $_FILES['diapotwo']['type'];
 $uploadPath = $uploadDirectory . basename($diapotwoName);
 $didUpload5 = move_uploaded_file($diapotwoTmpName, $uploadPath);
 
-$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/diapo3/';
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery3/';
 
 // Lis les informations saisies dans le formulaire
 $diapothreeName = $_FILES['diapothree']['name'];
@@ -83,7 +83,7 @@ $diapothreeType = $_FILES['diapothree']['type'];
 $uploadPath = $uploadDirectory . basename($diapothreeName);
 $didUpload6 = move_uploaded_file($diapothreeTmpName, $uploadPath);
 
-$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/diapo4/';
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery4/';
 
 // Lis les informations saisies dans le formulaire
 $diapofourName = $_FILES['diapofour']['name'];
@@ -95,6 +95,29 @@ $diapofourType = $_FILES['diapofour']['type'];
 $uploadPath = $uploadDirectory . basename($diapofourName);
 $didUpload7 = move_uploaded_file($diapofourTmpName, $uploadPath);
 
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery5/';
+
+// Lis les informations saisies dans le formulaire
+$diapofiveName = $_FILES['diapofive']['name'];
+$diapofiveSize = $_FILES['diapofive']['size'];
+$diapofiveTmpName  = $_FILES['diapofive']['tmp_name'];
+$diapofiveType = $_FILES['diapofive']['type'];
+
+// Copie aussi le fichier dans un répertoire
+$uploadPath = $uploadDirectory . basename($diapofiveName);
+$didUpload8 = move_uploaded_file($diapofiveTmpName, $uploadPath);
+
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/gallery6/';
+
+// Lis les informations saisies dans le formulaire
+$diaposixName = $_FILES['diaposix']['name'];
+$diaposixSize = $_FILES['diaposix']['size'];
+$diaposixTmpName  = $_FILES['diaposix']['tmp_name'];
+$diaposixType = $_FILES['diaposix']['type'];
+
+// Copie aussi le fichier dans un répertoire
+$uploadPath = $uploadDirectory . basename($diaposixName);
+$didUpload9 = move_uploaded_file($diaposixTmpName, $uploadPath);
 // // Lis les informations depuis la requête HTTP
 // $jeu = [];
 // $jeu['titre'] = htmlspecialchars($_POST['titre']);
@@ -133,10 +156,12 @@ $jeu['diapo_filename'] = $diapoName;
 $jeu['diapotwo_filename'] = $diapotwoName;
 $jeu['diapothree_filename'] = $diapothreeName;
 $jeu['diapofour_filename'] = $diapofourName;
+$jeu['diapofive_filename'] = $diapofiveName;
+$jeu['diaposix_filename'] = $diaposixName;
 
 
 $dbConnection = getConnection($dbConfig);
 // $isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $dbConnection);
-$isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $jeu['screenshot_filename'], $jeu['screen_filename'], $jeu['diapo_filename'], $jeu['diapotwo_filename'], $jeu['diapothree_filename'], $jeu['diapofour_filename'], $dbConnection);
+$isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $jeu['screenshot_filename'], $jeu['screen_filename'], $jeu['diapo_filename'], $jeu['diapotwo_filename'], $jeu['diapothree_filename'], $jeu['diapofour_filename'], $jeu['diapofive_filename'], $jeu['diaposix_filename'], $dbConnection);
 
 header('Location: ' . '/ctrl/gaming/gaming.php');

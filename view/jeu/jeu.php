@@ -80,10 +80,12 @@
         <h2>Images</h2>
         <img class="imageprincipale" src="<?= '/upload/' . $jeu['image'] ?>" alt="">
         <ul>
-            <li><img class="small" src="<?= '/diapo1/' . $jeu['diapo'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/diapo2/' . $jeu['diapotwo'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/diapo3/' . $jeu['diapothree'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/diapo4/' . $jeu['diapofour'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery1/' . $jeu['diapo'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery2/' . $jeu['diapotwo'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery3/' . $jeu['diapothree'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery4/' . $jeu['diapofour'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery5/' . $jeu['diapofive'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt=""></li>
         </ul>
     </div>
 

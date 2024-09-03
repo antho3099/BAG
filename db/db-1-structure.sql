@@ -62,6 +62,8 @@ CREATE TABLE jeu(
     ,diapotwo_filename varchar(255)
     ,diapothree_filename varchar(255)
     ,diapofour_filename varchar(255)
+    ,diapofive_filename varchar(255)
+    ,diaposix_filename varchar(255)
 );
 
 ALTER TABLE role

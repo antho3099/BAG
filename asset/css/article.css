@@ -1,0 +1,224 @@
+#article {
+    background-color: rgba(0, 0, 139, 0.564);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 9px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#article h2 {
+    font-size: 25px;
+    font-family: "Russo One", system-ui;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+#firstarticleimg {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+#article p {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#article #paragraph1 h3 {
+    font-size: 20px;
+    font-family: "Russo One", system-ui;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+#article #paragraph1 #secondarticleimg {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+#article #paragraph1 p {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#article #paragraph2 h3 {
+    font-size: 20px;
+    font-family: "Russo One", system-ui;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+#article #paragraph2 #thirdarticleimg {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+#article #paragraph2 p {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    #article {
+        background: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #article h2 {
+        font-size: 48px;
+        font-family: "Russo One", system-ui;
+        text-align: center;
+        color: white;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #firstarticleimg {
+        width: 800px;
+        display: block;
+        margin: auto;
+        border-radius: 6px;
+        border: 1px solid white;
+    }
+
+    #article p {
+        font-family: "Roboto", system-ui;
+        font-weight: 500;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        margin-top: 15px;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    #article #paragraph1 h3 {
+        font-size: 35px;
+        font-family: "Russo One", system-ui;
+        text-align: center;
+        color: white;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #article #paragraph1 #secondarticleimg {
+        width: 800px;
+        display: block;
+        margin: auto;
+        border-radius: 6px;
+        border: 1px solid white;
+    }
+
+    #article #paragraph1 p {
+        font-family: "Roboto", system-ui;
+        font-weight: 500;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        margin-top: 15px;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    #article #paragraph2 h3 {
+        font-size: 35px;
+        font-family: "Russo One", system-ui;
+        text-align: center;
+        color: white;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #article #paragraph2 #thirdarticleimg {
+        width: 800px;
+        display: block;
+        margin: auto;
+        border-radius: 6px;
+        border: 1px solid white;
+    }
+
+    #article #paragraph2 p {
+        font-family: "Roboto", system-ui;
+        font-weight: 500;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        margin-top: 15px;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    #paragraph {
+        width: 800px;
+    }
+
+    #paragraphtwo {
+        width: 800px;
+    }
+
+    #paragraphthree {
+        width: 800px;
+    }
+
+    #create {
+        background: rgb(1, 11, 153);
+        background: linear-gradient(307deg, rgba(1, 11, 153, 1) 0%, rgba(173, 0, 148, 1) 86%) no-repeat;
+        color: white;
+    }
+
+
+
+}

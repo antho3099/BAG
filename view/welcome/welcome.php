@@ -19,7 +19,7 @@
             <ul>
                 <?php if (isset($_SESSION['compte']) == null) { ?>
                     <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                    <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                    <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
                     <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
                 <?php } else if ($_SESSION['compte']['idRole'] == 1) { ?>
                     <li><a href="/ctrl/dashboard/dashboard.php">Dashboard</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
                 <?php } else { ?>
                     <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                    <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                    <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
                     <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
                     <li><a href="/ctrl/logout.php">Déconnexion</a></li>
                 <?php } ?>
@@ -55,7 +55,7 @@
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
-                <a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Let's Go !</a>
+                <a href="/ctrl/sparking/sparkinggeek.php">Let's Go !</a>
             </div>
         </div>
         <div class="sectionstory">
@@ -85,7 +85,7 @@
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
-                <a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Let's Go !</a>
+                <a href="/ctrl/sparking/sparkinggeek.php">Let's Go !</a>
             </div>
         </div>
         <div class="sectionstory">
@@ -123,7 +123,7 @@
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
-                <a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Let's Go !</a>
+                <a href="/ctrl/sparking/sparkinggeek.php">Let's Go !</a>
             </div>
         </div>
         <div class="sectionstory">

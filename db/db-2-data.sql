@@ -11,3 +11,7 @@ INSERT INTO user(id, nom, prenom, birth, email, pseudo, password, idRole) VALUES
 
 INSERT INTO jeu(id, titre, studio, sortie, genre, age, plateforme, prix, story, avis, note, critique, idUser) VALUES
 (1, 'Tomb Raider' , 'Crystal Dynamics', '2013-03-23', 'aventure', '18', 'Playstation 4', '59,99 €', 'Lara...', 'Banger', '7', 'Metacritic:55/100', 1);
+
+INSERT INTO article(id, une, paragraph, minititle, minititletwo, paragraphtwo, paragraphthree, date, idUser) VALUES
+(100, 'Cyberpunk 2077: Qui est Johnny Silverhand ?', 'Johnny Silverhand est...', 'Un mercenaire', 'un f******', 'La vie de johnny est...','sa vie est basé etc...', '2024-09-04', 1);
+

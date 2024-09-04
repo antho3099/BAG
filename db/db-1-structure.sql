@@ -65,6 +65,20 @@ CREATE TABLE jeu(
     ,diapofive_filename varchar(255)
     ,diaposix_filename varchar(255)
 );
+CREATE TABLE article(
+    id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY
+    ,une varchar(100) NOT NULL
+    ,paragraph varchar(1000) NOT NULL
+    ,minititle varchar(100) NOT NULL
+    ,paragraphtwo varchar(1000) NOT NULL
+    ,minititletwo varchar(100) NOT NULL
+    ,paragraphthree varchar(1000) NOT NULL
+    ,date varchar(100) NOT NULL
+    ,idUser bigint(20) NOT NULL
+    ,picture_filename varchar(255)
+    ,picturetwo_filename varchar(255)
+    ,picturethree_filename varchar(255)
+);
 
 ALTER TABLE role
 ADD CONSTRAINT `u_role_code` UNIQUE(code)
@@ -77,3 +91,7 @@ ADD CONSTRAINT `u_user_pseudo` UNIQUE (pseudo)
 ALTER TABLE jeu
 ADD CONSTRAINT `u_jeu_titre` UNIQUE (titre)
 ,ADD CONSTRAINT `fk_jeu_user` FOREIGN KEY (idUser) REFERENCES user(id);
+
+ALTER TABLE article
+ADD CONSTRAINT `u_article_une` UNIQUE (une)
+,ADD CONSTRAINT `fk_article_user` FOREIGN KEY (idUser) REFERENCES user(id);

@@ -27,6 +27,11 @@
 @import url(screenshots.css);
 @import url(diapo.css);
 @import url(details.css);
+@import url(sparkingwindow.css);
+@import url(sparkingheader.css);
+@import url(article.css);
+@import url(coordination.css);
+@import url(return.css);
 
 * {
     margin: 0;

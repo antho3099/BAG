@@ -1,3 +1,8 @@
+#sparkingbody {
+    background: rgb(0, 24, 180);
+    background: linear-gradient(180deg, rgba(0, 24, 180, 1) 25%, rgba(0, 206, 255, 1) 56%, rgba(150, 0, 186, 1) 81%) no-repeat;
+}
+
 #sparkingwelcome img {
     width: 290px;
     display: block;
@@ -55,6 +60,11 @@
 }
 
 @media screen and (min-width: 992px) {
+    #sparkingbody {
+        background: rgb(0, 15, 230);
+        background: linear-gradient(180deg, rgba(0, 15, 230, 1) 0%, rgba(0, 205, 218, 1) 100%) no-repeat;
+    }
+
     #sparkingwelcome img {
         width: 380px;
         display: block;

@@ -40,7 +40,7 @@
     </div>
     <div id="article">
         <h2><?= $article['une'] ?></h2>
-        <img id="firstarticleimg" src="<?= '/article/' . $article['picture'] ?>" alt="">
+        <img id="firstarticleimg" src="<?= '/articlegallery/' . $article['picture'] ?>" alt="">
         <p><?= $article['paragraph'] ?></p>
         <div id="paragraph1">
             <h3><?= $article['minititle'] ?></h3>

@@ -78,9 +78,9 @@
         margin-bottom: 15px;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap-reverse;
-        gap: 3px;
+        gap: 6px;
     }
 
 

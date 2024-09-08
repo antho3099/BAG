@@ -9,7 +9,7 @@
 }
 
 #article h2 {
-    font-size: 25px;
+    font-size: 28px;
     font-family: "Russo One", system-ui;
     text-align: center;
     color: white;
@@ -17,6 +17,8 @@
     margin-bottom: 15px;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: black;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #firstarticleimg {

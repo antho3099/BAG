@@ -44,7 +44,7 @@
     <div id="sparkingarticle">
         <?php foreach ($listArticle as $article) { ?>
             <ul>
-                <li><a href="/ctrl/article/article.php?id=<?= $article['id'] ?>"><img src="<?= '/article/' . $article['picture'] ?>" alt=""><?= $article['une'] ?> <p><?= $article['date'] ?></p></a></li>
+                <li><a href="/ctrl/article/article.php?id=<?= $article['id'] ?>"><img src="<?= '/articlegallery/' . $article['picture'] ?>" alt=""><?= $article['une'] ?> <p><?= $article['date'] ?></p></a></li>
             </ul>
         <?php } ?>
     </div>

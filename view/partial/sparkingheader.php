@@ -7,5 +7,5 @@
         <img class="avatar" src="/img/logo/avatar.webp" alt="">
     <?php } ?>
     <img class="sparkingeeklogo" src="/img/logo/SparkingGeek-ULT.webp" alt="">
-    <img class="sparkmenu" src="/img/logo/sparkmenu.webp" alt="">
+    <img class="sparkmenu" src="/img/logo/sparkingmenu.webp" alt="">
 </header>

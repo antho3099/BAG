@@ -1,6 +1,5 @@
 #sparkheader {
-    background: rgb(18, 0, 131);
-    background: linear-gradient(343deg, rgba(18, 0, 131, 1) 15%, rgba(0, 206, 255, 1) 41%, rgba(4, 160, 255, 1) 61%, rgba(0, 24, 186, 1) 81%)no-repeat;
+    background-color: darkblue;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -30,8 +29,7 @@
 
 @media screen and (min-width: 992px) {
     #sparkheader {
-        background: rgb(18, 0, 131);
-        background: linear-gradient(343deg, rgba(18, 0, 131, 1) 15%, rgba(0, 206, 255, 1) 41%, rgba(4, 160, 255, 1) 61%, rgba(0, 24, 186, 1) 81%) no-repeat;
+        background-color: darkblue;
         justify-content: space-around;
         height: 97px;
     }

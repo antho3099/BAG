@@ -11,4 +11,5 @@ $dbConnection = getConnection($dbConfig);
 $id = htmlspecialchars($_GET['id']);
 $jeu = get($id, $dbConnection);
 
+
 include $_SERVER['DOCUMENT_ROOT'] . '/view/jeu/jeu.php';

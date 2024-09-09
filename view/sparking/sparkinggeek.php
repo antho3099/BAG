@@ -12,7 +12,7 @@
     <script src="/js/sparkmenu.js" defer></script>
 </head>
 
-<body id="sparkingbody">
+<body class="sparkingbody">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/sparkingheader.php' ?>
     <div class="navigation">
         <nav>

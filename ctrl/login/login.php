@@ -38,5 +38,7 @@ if ($user == null) {
     $_SESSION['msg']['info'][] = 'Bienvenue';
 }
 
+
+
 //Redirection
 header('Location:' . '/ctrl/welcome/welcome.php');

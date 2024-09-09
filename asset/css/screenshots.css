@@ -4,8 +4,8 @@
 
 .screenshotmobile {
     width: 390px;
-    margin-top: 15px;
-    margin-left: 18px;
+    display: block;
+    margin: auto;
     border-radius: 3px;
     border: 1px solid white;
     margin-bottom: 5px;
@@ -17,8 +17,8 @@
 
 #screentwomobile {
     width: 390px;
-    margin-top: 15px;
-    margin-left: 18px;
+    display: block;
+    margin: auto;
     border-radius: 3px;
     border: 1px solid white;
     margin-bottom: 5px;

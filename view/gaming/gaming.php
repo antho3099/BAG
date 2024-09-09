@@ -47,7 +47,7 @@
                 <?php if ($jeu['age'] == 18) { ?>
                     <li class="warning"><a href=" /ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="hard">18</span></a></li>
                 <?php } else if ($jeu['age'] == 16) { ?>
-                    <li><a class=" hard" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="sixteen">16</span></a></li>
+                    <li><a class=" cool" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="sixteen">16</span></a></li>
                 <?php } else if ($jeu['age'] == 12) { ?>
                     <li><a class="fine" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="twelve">12</span></a></li>
                 <?php } else if ($jeu['age'] == 7) { ?>

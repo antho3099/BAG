@@ -43,6 +43,11 @@ body {
     background: linear-gradient(164deg, rgba(0, 17, 250, 1) 0%, rgba(0, 201, 255, 1) 58%, rgba(0, 255, 30, 1) 100%) no-repeat;
 }
 
+.sparkingbody {
+    background: rgb(0, 24, 180);
+    background: linear-gradient(165deg, rgba(0, 24, 180, 1) 25%, rgba(0, 206, 255, 1) 56%, rgba(150, 0, 186, 1) 81%) no-repeat;
+}
+
 h3 {
     font-family: "Kdam Thmor Pro", sans-serif;
     text-align: center;

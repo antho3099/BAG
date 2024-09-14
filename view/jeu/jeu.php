@@ -44,7 +44,7 @@
     <div id="game">
         <h2><?= $jeu['titre'] ?></h2>
         <div class="gameone">
-            <img src="<?= '/upload/' . $jeu['image'] ?>" alt="">
+            <img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>">
             <ul>
                 <li>Nom: <?= $jeu['titre'] ?></li>
                 <li>Studio: <?= $jeu['studio'] ?></li>
@@ -56,16 +56,16 @@
             </ul>
         </div>
     </div>
-    <img id="screenshots" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="">
+    <img id="screenshots" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="<?= $jeu['titre'] ?>">
     <div id="histoire">
         <h2>HISTOIRE</h2>
-        <img class="screenshotmobile" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="">
+        <img class="screenshotmobile" src="<?= '/screenshot/' . $jeu['screenshot'] ?>" alt="<?= $jeu['titre'] ?>">
         <p><?= $jeu['story'] ?></p>
     </div>
-    <img id="screentwo" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="">
+    <img id="screentwo" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="<?= $jeu['titre'] ?>">
     <div id="avis">
         <h2>Critique du jeu</h2>
-        <img id="screentwomobile" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="">
+        <img id="screentwomobile" src="<?= '/screengame/' . $jeu['screen'] ?>" alt="<?= $jeu['titre'] ?>">
         <p><?= $jeu['avis'] ?></p>
     </div>
     <div id="note">
@@ -78,14 +78,14 @@
     </div>
     <div id="screendiapo">
         <h2>Images</h2>
-        <img class="imageprincipale" src="<?= '/upload/' . $jeu['image'] ?>" alt="">
+        <img class="imageprincipale" src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>">
         <ul>
-            <li><img class="small" src="<?= '/gallery1/' . $jeu['diapo'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/gallery2/' . $jeu['diapotwo'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/gallery3/' . $jeu['diapothree'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/gallery4/' . $jeu['diapofour'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/gallery5/' . $jeu['diapofive'] ?>" alt=""></li>
-            <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt=""></li>
+            <li><img class="small" src="<?= '/gallery1/' . $jeu['diapo'] ?>" alt="<?= $jeu['titre'] ?>"></li>
+            <li><img class="small" src="<?= '/gallery2/' . $jeu['diapotwo'] ?>" alt="<?= $jeu['titre'] ?>"></li>
+            <li><img class="small" src="<?= '/gallery3/' . $jeu['diapothree'] ?>" alt="<?= $jeu['titre'] ?>"></li>
+            <li><img class="small" src="<?= '/gallery4/' . $jeu['diapofour'] ?>" alt="<?= $jeu['titre'] ?>"></li>
+            <li><img class="small" src="<?= '/gallery5/' . $jeu['diapofive'] ?>" alt="<?= $jeu['titre'] ?>"></li>
+            <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt="<?= $jeu['titre'] ?>"></li>
         </ul>
     </div>
 

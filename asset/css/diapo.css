@@ -49,10 +49,11 @@
 
 @media screen and (min-width: 992px) {
     #screendiapo {
-        width: 900px;
+        width: 90%;
         background-color: darkblue;
         border-radius: 6px;
-        margin-left: 25px;
+        display: block;
+        margin: auto;
         margin-top: 25px;
     }
 
@@ -67,7 +68,7 @@
     }
 
     #screendiapo .imageprincipale {
-        width: 850px;
+        width: 950px;
         display: block;
         margin: auto;
         border: 2px solid white;
@@ -78,7 +79,7 @@
     #screendiapo ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         gap: 2px;
         margin-left: 10px;
         margin-right: 10px;
@@ -88,8 +89,12 @@
     #screendiapo li {
         border: 1px solid white;
         list-style: none;
-        width: 120px;
-        height: 68px;
+        width: 190px;
         margin-top: 5px;
+        padding-bottom: 55px;
+    }
+
+    .small {
+        width: 100%;
     }
 }

@@ -47,4 +47,9 @@
         text-align: center;
         color: mediumblue;
     }
+
+    #result input {
+        display: block;
+        margin: auto;
+    }
 }

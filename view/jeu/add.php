@@ -91,6 +91,12 @@
                 <label for="diaposix">Diaporama Image 6:</label> <br>
                 <input type="file" id="diaposix" name="diaposix"> <br>
             </details>
+            <!--Demo-->
+            <details>
+                <summary>Ajouter une démo</summary>
+                <label for="demo">Ajouter une démo de jeu</label> <br>
+                <input type="file" id="demo" name="demo"> <br>
+            </details>
             <!--Ajouter le jeu-->
             <input type="submit" value="Ajouter le jeu" id="submit">
         </form>

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kdam+Thmor+Pro&family=Russo+One&display=swap" rel="stylesheet">
     <script src="/js/menu.js" defer></script>
     <script src="/js/diaporama.js" defer></script>
+    <script src="/js/like_dislike.js" defer></script>
 </head>
 
 <body>
@@ -88,7 +89,24 @@
             <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt="<?= $jeu['titre'] ?>"></li>
         </ul>
     </div>
-
+    <div id="demovideo">
+        <h2>Démo</h2>
+        <video id="video" src="<?= '/uploaddemo/' . $jeu['demo'] ?>"></video>
+    </div>
+    <?php if (isset($_SESSION['compte']) == null) { ?>
+        <div id="hey">
+            <h2>Noter le jeu</h2>
+            <p>Vous devez vous connecter pour noter le jeu </p>
+        </div>
+    <?php } else { ?>
+        <div id="likeordislike">
+            <h2>Noter le jeu</h2>
+            <div id="result">
+                <img class="like" src="/img/logo/like.webp" alt="">
+                <img class="dislike" src="/img/logo/dislike.webp" alt="">
+            </div>
+        </div>
+    <?php } ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 

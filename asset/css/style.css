@@ -32,6 +32,8 @@
 @import url(article.css);
 @import url(coordination.css);
 @import url(return.css);
+@import url(like.css);
+@import url(hey.css);
 
 * {
     margin: 0;

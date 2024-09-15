@@ -64,6 +64,7 @@ CREATE TABLE jeu(
     ,diapofour_filename varchar(255)
     ,diapofive_filename varchar(255)
     ,diaposix_filename varchar(255)
+    ,demo_filename varchar(255)
 );
 CREATE TABLE article(
     id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY

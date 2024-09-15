@@ -10,7 +10,8 @@ $uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/upload/';
 
 const MY_IMG_PNG = 'image/png';
 const MY_IMG_JPG = 'image/jpeg';
-const LIST_ACCEPTED_FILE_TYPE = [MY_IMG_PNG, MY_IMG_JPG];
+const MY_VIDEO_MP4 = 'video/mp4';
+const LIST_ACCEPTED_FILE_TYPE = [MY_IMG_PNG, MY_IMG_JPG, MY_VIDEO_MP4];
 const FILE_MAX_SIZE = 10;
 
 // Lis les informations saisies dans le formulaire
@@ -118,21 +119,19 @@ $diaposixType = $_FILES['diaposix']['type'];
 // Copie aussi le fichier dans un répertoire
 $uploadPath = $uploadDirectory . basename($diaposixName);
 $didUpload9 = move_uploaded_file($diaposixTmpName, $uploadPath);
-// // Lis les informations depuis la requête HTTP
-// $jeu = [];
-// $jeu['titre'] = htmlspecialchars($_POST['titre']);
-// $jeu['studio'] = htmlspecialchars($_POST['studio']);
-// $jeu['sortie'] = htmlspecialchars($_POST['sortie']);
-// $jeu['genre'] = htmlspecialchars($_POST['genre']);
-// $jeu['age'] = htmlspecialchars($_POST['age']);
-// $jeu['plateforme'] = htmlspecialchars($_POST['plateforme']);
-// $jeu['prix'] = htmlspecialchars($_POST['prix']);
-// $jeu['story'] = htmlspecialchars($_POST['story']);
-// $jeu['avis'] = htmlspecialchars($_POST['avis']);
-// $jeu['note'] = htmlspecialchars($_POST['note']);
-// $jeu['critique'] = htmlspecialchars($_POST['critique']);
-// $jeu['idUser'] = $_SESSION['compte']['id'];
-// $jeu['image_filename'] = $fileName;
+
+
+$uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/uploaddemo/';
+
+// Lis les informations saisies dans le formulaire
+$demofileName = $_FILES['demo']['name'];
+$demofileSize = $_FILES['demo']['size'];
+$demofileTmpName  = $_FILES['demo']['tmp_name'];
+$demofileType = $_FILES['demo']['type'];
+
+// Copie aussi le fichier dans un répertoire
+$uploadPath = $uploadDirectory . basename($demofileName);
+$didUpload13 = move_uploaded_file($demofileTmpName, $uploadPath);
 
 
 // Lis les informations depuis la requête HTTP
@@ -158,10 +157,11 @@ $jeu['diapothree_filename'] = $diapothreeName;
 $jeu['diapofour_filename'] = $diapofourName;
 $jeu['diapofive_filename'] = $diapofiveName;
 $jeu['diaposix_filename'] = $diaposixName;
+$jeu['demo_filename'] = $demofileName;
 
 
 $dbConnection = getConnection($dbConfig);
 // $isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $dbConnection);
-$isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $jeu['screenshot_filename'], $jeu['screen_filename'], $jeu['diapo_filename'], $jeu['diapotwo_filename'], $jeu['diapothree_filename'], $jeu['diapofour_filename'], $jeu['diapofive_filename'], $jeu['diaposix_filename'], $dbConnection);
+$isSucces = create($jeu['titre'], $jeu['studio'], $jeu['sortie'], $jeu['genre'], $jeu['age'], $jeu['plateforme'], $jeu['prix'], $jeu['story'], $jeu['avis'], $jeu['note'], $jeu['critique'], $jeu['idUser'], $jeu['image_filename'], $jeu['screenshot_filename'], $jeu['screen_filename'], $jeu['diapo_filename'], $jeu['diapotwo_filename'], $jeu['diapothree_filename'], $jeu['diapofour_filename'], $jeu['diapofive_filename'], $jeu['diaposix_filename'], $jeu['demo_filename'], $dbConnection);
 
 header('Location: ' . '/ctrl/gaming/gaming.php');

@@ -89,10 +89,6 @@
             <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt="<?= $jeu['titre'] ?>"></li>
         </ul>
     </div>
-    <div id="demovideo">
-        <h2>Démo</h2>
-        <video id="video" src="<?= '/uploaddemo/' . $jeu['demo'] ?>"></video>
-    </div>
     <?php if (isset($_SESSION['compte']) == null) { ?>
         <div id="hey">
             <h2>Noter le jeu</h2>

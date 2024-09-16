@@ -3,26 +3,30 @@ let dislike = document.querySelectorAll(".dislike");
 let game = document.querySelectorAll("#jeux li");
 console.log();
 
-for (l of like) {
-    l.addEventListener("click", function () {
-        l.style.backgroundColor = "green";
-        localStorage.setItem("votre note", "like");
-    })
-}
-for (dl of dislike) {
-    dl.addEventListener("click", function () {
-        dl.style.backgroundColor = "red";
-        localStorage.setItem("votre note", "dislike");
+for (let love of like) {
+    love.addEventListener("click", () => {
+        love.classList.toggle("greenlight");
+        if (love.classList == "greenlight") {
+            localStorage.setItem("note", "none");
+        }
+        else {
+            localStorage.setItem("note", "j'aime");
+        }
     })
 }
 
-if (l && dl.click) {
-    l.style.backgroundColor = "gold";
-    dl.style.backgroundColor = "gold";
-    localStorage.setItem("votre note", "none");
+for (let hate of dislike) {
+    hate.addEventListener("click", () => {
+        hate.classList.toggle("red");
+        if (hate.classList.toggle == "red") {
+            localStorage.setItem("note", "none");
+        }
+        else {
+            localStorage.setItem("note", "j'aime pas");
+        }
+    })
 }
-else {
 
-}
+
 
 

@@ -98,7 +98,9 @@
         <div id="likeordislike">
             <h2>Noter le jeu</h2>
             <div id="result">
+                <!--j'aime-->
                 <img class="like" src="/img/logo/like.webp" alt="">
+                <!--j'aime pas-->
                 <img class="dislike" src="/img/logo/dislike.webp" alt="">
             </div>
         </div>

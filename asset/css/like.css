@@ -9,15 +9,8 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
-#result {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
 .like {
-    width: 65px;
+    width: 85px;
     background-color: gold;
     border-radius: 100%;
 }
@@ -25,10 +18,16 @@
 .greenlight {
     display: block;
     background-color: green;
+    border-radius: 100%;
+    width: 85px;
+}
+
+.red {
+    background-color: red;
 }
 
 .dislike {
-    width: 65px;
+    width: 85px;
     background-color: gold;
     border-radius: 100%;
 }

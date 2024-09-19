@@ -4,46 +4,77 @@ footer {
     width: 100%;
 }
 
-footer h3 {
-    font-size: 18px;
-    color: gold;
-}
-
-footer p {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-family: "Russo One", sans-serif;
-
-}
-
-footer img {
-    width: 120px;
+#footerimg {
+    width: 180px;
     display: block;
     margin: auto;
+}
+
+#social h4 {
+    font-size: 15px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+#socialmedia ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#socialmedia ul li {
+    list-style: none;
+}
+
+#socialmedia img {
+    width: 75px;
+}
+
+#copyright p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 15px;
 }
 
 @media screen and (min-width: 992px) {
     footer {
         background-color: darkblue;
+        margin-top: 10px;
+        width: 100%;
     }
 
-    footer h3 {
-        font-size: 35px;
-        text-align: center;
-        color: gold;
-        font-family: "Russo One", sans-serif;
-        padding-top: 15px;
+    #socialfooter {
+        display: flex;
+        justify-content: space-around;
     }
 
-    footer img {
+    #footerimg {
+        margin-left: 120px;
         width: 280px;
+        margin-top: 25px;
     }
 
-    footer p {
-        font-size: 25px;
-        text-align: center;
+    #social {
+        margin-right: 150px;
+        margin-top: 10px;
+    }
+
+    #social h4 {
+        font-size: 20px;
+    }
+
+    #socialmedia img {
+        width: 95px;
+    }
+
+    #copyright p {
+        font-family: "Kdam Thmor Pro", sans-serif;
         color: white;
-        font-family: "Russo One", sans-serif;
+        font-size: 20px;
+        margin-top: 15px;
     }
 }

@@ -11,9 +11,4 @@ $dbConnection = getConnection($dbConfig);
 $id = htmlspecialchars($_GET['id']);
 $jeu = get($id, $dbConnection);
 
-if ($jeu['age'] == 18){
-    
-
-}
-
 include $_SERVER['DOCUMENT_ROOT'] . '/view/jeu/jeu.php';

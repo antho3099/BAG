@@ -24,23 +24,6 @@ CREATE TABLE user(
     ,idRole bigint(20) NOT NULL
     ,avatar_filename varchar(255)  
 );
-
--- CREATE TABLE jeu(
---     id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY
---     ,titre varchar(100) NOT NULL
---     ,studio varchar(100) NOT NULL
---     ,sortie varchar (100) NOT NULL
---     ,genre varchar(100) NOT NULL
---     ,age bigint(18) NOT NULL
---     ,plateforme varchar(100) NOT NULL
---     ,prix varchar(100) NOT NULL
---     ,story varchar(1000) NOT NULL
---     ,avis varchar(1000) NOT NULL
---     ,note bigint(18) NOT NULL
---     ,critique varchar(100) NOT NULL
---     ,idUser bigint(20) NOT NULL
---     ,image_filename varchar(225)
--- );
 CREATE TABLE jeu(
     id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY
     ,titre varchar(100) NOT NULL

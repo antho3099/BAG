@@ -10,7 +10,7 @@
 </head>
 
 <body onload="setTimeout('redirect()', 5000)">
-    <img src="/img/logo/BAG_legacy.webp" alt="">
+    <img src="/img/logo/BAG_Like_A_Player_Like_A_Geek.webp" alt="">
 </body>
 
 </html>

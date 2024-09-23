@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
             </ul>
         </nav>

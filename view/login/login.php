@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
                 <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+                <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
                 <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
             </ul>
         </nav>
@@ -33,12 +33,12 @@
         <!--pseudo-->
 
         <label for="pseudo">Nom d'utilisateur</label> <br>
-        <input type="text" id="pseudo" name="pseudo"> <br>
+        <input type="text" id="pseudo" name="pseudo" required> <br>
 
         <!--Mot de passe-->
 
         <label for="password">Mot De Passe</label> <br>
-        <input type="password" id="password" name="password"> <br>
+        <input type="password" id="password" name="password" required> <br>
 
         <!--Se connecter-->
 
@@ -46,7 +46,7 @@
     </form>
 
     <!--Ou créer un compte si on en a pas-->
-    <h4>Vous n'avez pas de compte, pas grave, vous pouvez en créer un</h4>
+    <h4>Vous n'avez pas de compte, vous pouvez en créer un</h4>
     <a id="register" href="/ctrl/register/register-display.php">Créer un nouveau compte</a>
 
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>

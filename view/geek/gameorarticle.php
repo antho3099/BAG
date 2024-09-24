@@ -29,34 +29,21 @@
             </ul>
         </nav>
     </div>
-    <div class="ogdashboard">
-        <div class="dashboardgame">
-            <img src="/img/logo/manette.webp" alt="" id="dashgameimg">
-            <div class="dashgame">
-                <h2>Jeux Vidéos</h2>
-                <a href="/ctrl/jeu/list.php">C'est parti</a>
+    <div class="addboard">
+        <div class="sectiongame">
+            <img id="geekone" src="/img/logo/BAG_geek_one.webp" alt="">
+            <img id="geekpc" src="/img/logo/BAGGeekpc.webp" alt="">
+            <div class="gamingchoice">
+                <h2>Jeu Vidéo</h2>
+                <a href="/ctrl/jeu/add-display.php">Ajouter un jeu</a>
             </div>
         </div>
-        <div class="articledashboard">
-            <img src="/img/logo/article.webp" alt="">
-            <div class="dashspark">
+        <div class="sectionarticle">
+            <img id="sparkone" src="/img/logo/BAG_Geek_Sparking.webp" alt="">
+            <img id="sparkpc" src="/img/logo/BAGsparkingpc.webp" alt="">
+            <div class="sparkchoice">
                 <h2>Article</h2>
-                <a href="/ctrl/article/list.php">C'est parti</a>
-            </div>
-        </div>
-        <div class="dashboarduser">
-            <img src="/img/logo/avatar.webp" alt="" id="dashuserimg">
-            <div class="dashuser">
-                <h2>Compte</h2>
-                <a href="">Allons voir</a>
-            </div>
-        </div>
-        <div class="dashboardadd">
-            <img src="/img/logo/add.webp" alt="">
-            <div class="addgame">
-                <h2>Ajouter Jeu/Article</h2>
-                <a href="/ctrl/gameorarticle/gameorarticle.php">C'est parti</a>
-
+                <a href="/ctrl/article/add-display.php">Ajouter un article</a>
             </div>
         </div>
     </div>

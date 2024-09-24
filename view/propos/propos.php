@@ -74,6 +74,13 @@
                 </p>
             </div>
         </div>
+        <div class="creator">
+            <img id="creatorimg" src="/img/card/BAG_spiderman.webp" alt="">
+            <div class="creatorstory">
+                <h2>Son créateur</h2>
+                <p>Fan de jeux vidéos, j'adore les anciennes licences comme "Tomb Raider", "Spider-Man" ou encore "The Last Of Us" mais j'aime aussi les licences qui émergent comme "Cyberpunk 2077", "Astro Bot" ou "God Of War" mais j'aime aussi les jeux de sport. j'ai développé "La Baraque A Gaming" afin de vous sensibiliser sur les choix que vous faîtes lors d'un achat ou lors d'une sortie de jeu </p>
+            </div>
+        </div>
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>

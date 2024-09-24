@@ -29,38 +29,37 @@
             </ul>
         </nav>
     </div>
-    <div class="ogdashboard">
-        <div class="dashboardgame">
-            <img src="/img/logo/manette.webp" alt="" id="dashgameimg">
-            <div class="dashgame">
-                <h2>Jeux Vidéos</h2>
-                <a href="/ctrl/jeu/list.php">C'est parti</a>
-            </div>
-        </div>
-        <div class="articledashboard">
-            <img src="/img/logo/article.webp" alt="">
-            <div class="dashspark">
-                <h2>Article</h2>
-                <a href="/ctrl/article/list.php">C'est parti</a>
-            </div>
-        </div>
-        <div class="dashboarduser">
-            <img src="/img/logo/avatar.webp" alt="" id="dashuserimg">
-            <div class="dashuser">
-                <h2>Compte</h2>
-                <a href="">Allons voir</a>
-            </div>
-        </div>
-        <div class="dashboardadd">
-            <img src="/img/logo/add.webp" alt="">
-            <div class="addgame">
-                <h2>Ajouter Jeu/Article</h2>
-                <a href="/ctrl/gameorarticle/gameorarticle.php">C'est parti</a>
+    <main>
 
-            </div>
-        </div>
-    </div>
+        <table>
+
+
+            <!-- Entêtes de colonne écrites 'en dur' -->
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Titre</th>
+                    <th>user</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <?php foreach ($listArticle as $article) { ?>
+
+                    <tr>
+                        <td><?= $article['id'] ?></td>
+                        <td><?= $article['une'] ?></td>
+                        <td><?= $article['pseudoUser'] ?></td>
+                        <td>
+                            <a class="supprimer" href="/ctrl/jeu/delete.php?id=<?= $article['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
+                        </td>
+                    </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </main>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
+
 </body>
 
 </html>

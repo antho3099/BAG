@@ -1,0 +1,79 @@
+.sectiongame {
+    background-color: darkblue;
+    border: 3px solid gold;
+    margin-top: 25px;
+    margin-left: 65px;
+    margin-right: 65px;
+    border-radius: 5px;
+    padding-bottom: 25px;
+
+}
+
+#geekone {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#geekpc {
+    display: none;
+}
+
+.gamingchoice h2 {
+    text-align: center;
+    text-align: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
+    color: gold;
+    font-size: 55px;
+}
+
+.gamingchoice a {
+    background-color: gold;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: black;
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+@media screen and (min-width: 992px) {
+    .addboard {
+        display: flex;
+    }
+
+    .sectiongame {
+        background: none;
+        border: none;
+        display: flex;
+    }
+
+    #geekone {
+        display: none;
+    }
+
+    #geekpc {
+        display: block;
+        width: 350px;
+    }
+
+    .gamingchoice {
+        margin-top: 50px;
+    }
+
+    .gamingchoice h2 {
+        font-size: 80px;
+        font-style: italic;
+    }
+
+    .gamingchoice a {
+        width: 150px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+}

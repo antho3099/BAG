@@ -10,4 +10,4 @@ $dbConnection = getConnection($dbConfig);
 $listArticle = getAll($dbConnection);
 
 // Rends la vue
-require_once $_SERVER['DOCUMENT_ROOT'] . '/view/article/list.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/view/sparking/article/list.php';

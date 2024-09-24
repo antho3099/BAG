@@ -34,6 +34,10 @@
 @import url(return.css);
 @import url(like.css);
 @import url(hey.css);
+@import url(creator.css);
+@import url(sectiongame.css);
+@import url(sectionarticle.css);
+@import url(articlewindow.css);
 
 * {
     margin: 0;

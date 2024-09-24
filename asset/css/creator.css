@@ -1,0 +1,46 @@
+#creatorimg {
+    display: none;
+}
+
+.creatorstory h2 {
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: gold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.creatorstory p {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .creator {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15px;
+    }
+
+    #creatorimg {
+        display: block;
+        width: 420px;
+        margin-right: 142px;
+    }
+
+    .creatorstory {
+        margin-top: 55px;
+    }
+
+    .creatorstory h2 {
+        font-size: 55px;
+    }
+
+    .creatorstory p {
+        font-size: 25px;
+        width: 800px;
+    }
+
+}

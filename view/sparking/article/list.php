@@ -51,7 +51,7 @@
                         <td><?= $article['une'] ?></td>
                         <td><?= $article['pseudoUser'] ?></td>
                         <td>
-                            <a class="supprimer" href="/ctrl/jeu/delete.php?id=<?= $article['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
+                            <a class="supprimer" href="/ctrl/article/delete.php?id=<?= $article['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
                         </td>
                     </tr>
                 <?php } ?>

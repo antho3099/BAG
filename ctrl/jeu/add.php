@@ -10,8 +10,7 @@ $uploadDirectory = $_SERVER['DOCUMENT_ROOT'] . '/upload/';
 
 const MY_IMG_PNG = 'image/png';
 const MY_IMG_JPG = 'image/jpeg';
-const MY_VIDEO_MP4 = 'video/mp4';
-const LIST_ACCEPTED_FILE_TYPE = [MY_IMG_PNG, MY_IMG_JPG, MY_VIDEO_MP4];
+const LIST_ACCEPTED_FILE_TYPE = [MY_IMG_PNG, MY_IMG_JPG];
 const FILE_MAX_SIZE = 10;
 
 // Lis les informations saisies dans le formulaire

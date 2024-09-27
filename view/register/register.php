@@ -30,22 +30,22 @@
     <form action="/ctrl/register/register.php" method="post">
         <!--Nom-->
         <label for="nom">Nom</label> <br>
-        <input type="text" name="nom" id="nom"> <br>
+        <input type="text" name="nom" id="nom" required> <br>
         <!--prenom-->
         <label for="prenom">Prenom</label> <br>
-        <input type="text" name="prenom" id="prenom"> <br>
+        <input type="text" name="prenom" id="prenom" required> <br>
         <!--age-->
         <label for="birth">Âge</label> <br>
-        <input type="number" name="birth" id="birth"> <br>
+        <input type="number" name="birth" id="birth" required> <br>
         <!--email-->
         <label for="email">Email</label> <br>
-        <input type="text" id="email" name="email"> <br>
+        <input type="text" id="email" name="email" required> <br>
         <!--pseudo-->
         <label for="pseudo">pseudo</label> <br>
-        <input type="text" id="pseudo" name="pseudo"> <br>
+        <input type="text" id="pseudo" name="pseudo" required> <br>
         <!--mot de passe-->
         <label for="password">Mot de passe</label> <br>
-        <input type="password" id="password" name="password"> <br>
+        <input type="password" id="password" name="password" required> <br>
         <!--Valider-->
         <input type="submit" id="validate" name="validate" value="Créer son compte">
     </form>

@@ -38,6 +38,7 @@
     <div class="bienvenue">
         <h2>BIENVENUE A LA BARAQUE A GAMING</h2>
     </div>
+    <!--Si personne n'est connecté-->
     <?php if (isset($_SESSION['compte']['idRole']) == null) { ?>
         <div class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
@@ -68,6 +69,7 @@
             </div>
         </div>
 
+        <!--Si l'administrateur est connecté-->
     <?php } else if ($_SESSION['compte']['idRole'] == 1) { ?>
         <div class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
@@ -106,6 +108,7 @@
                 <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
             </div>
         </div>
+        <!--Si l'utilisateur est connecté-->
     <?php } else if ($_SESSION['compte']['idRole'] == 2) { ?>
         <div class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">

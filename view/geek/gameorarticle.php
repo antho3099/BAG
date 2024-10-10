@@ -10,25 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kdam+Thmor+Pro&family=Russo+One&display=swap" rel="stylesheet">
     <script src="/js/menu.js" defer></script>
+    <link rel="shortcut icon" href="/img/logo/mini-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
-                <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
-                <?php if (isset($_SESSION['compte']) == null) { ?>
-                    <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
-                <?php } else { ?>
-                    <li><a href="/ctrl/logout.php">Déconnexion</a></li>
-                <?php } ?>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
+            <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
+            <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
+            <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
+            <?php if (isset($_SESSION['compte']) == null) { ?>
+                <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
+            <?php } else { ?>
+                <li><a href="/ctrl/logout.php">Déconnexion</a></li>
+            <?php } ?>
+        </ul>
+    </nav>
     <div class="addboard">
         <div class="sectiongame">
             <img id="geekone" src="/img/logo/BAG_geek_one.webp" alt="">

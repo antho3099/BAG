@@ -6,6 +6,6 @@
     <?php } else if ($_SESSION['compte']['idRole'] == 2) { ?>
         <img class="avatar" src="/img/logo/avatar.webp" alt="">
     <?php } ?>
-    <img class="bag" src="/img/logo/BAG_legacy.webp" alt="">
+    <h1><img class="bag" src="/img/logo/BAG_legacy.webp" alt="La Baraque a Gaming"></h1>
     <img class="menu" src="/img/logo/menu-1.webp" alt="">
 </header>

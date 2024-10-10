@@ -7,6 +7,7 @@
     <title>Baraque a Gaming</title>
     <link rel="stylesheet" href="/asset/css/landing.css">
     <script src="/js/landing.js" defer></script>
+    <link rel="shortcut icon" href="/img/logo/mini-icon.png" type="image/x-icon">
 </head>
 
 <body onload="setTimeout('redirect()', 5000)">

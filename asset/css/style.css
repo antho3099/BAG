@@ -38,6 +38,7 @@
 @import url(sectiongame.css);
 @import url(sectionarticle.css);
 @import url(articlewindow.css);
+@import url(ajouter.css);
 
 * {
     margin: 0;

@@ -4,7 +4,7 @@ table {
 }
 
 table tr {
-    gap: 60px;
+    gap: 198px;
     display: flex;
     text-align: center;
     margin-left: 15px;
@@ -15,11 +15,39 @@ table th {
 }
 
 tbody tr {
-    gap: 25px;
+    gap: 65px;
     display: flex;
 }
 
 tbody td {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 100;
+}
+
+@media screen and (min-width: 992px) {
+    table {
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    table tr {
+        gap: 490px;
+        display: flex;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    table th {
+        font-family: "Kdam Thmor Pro", sans-serif;
+    }
+
+    tbody tr {
+        gap: 380px;
+        display: flex;
+    }
+
+    tbody td {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-weight: 100;
+    }
 }

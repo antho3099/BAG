@@ -10,24 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kdam+Thmor+Pro&family=Russo+One&display=swap" rel="stylesheet">
     <script src="/js/menu.js" defer></script>
+    <link rel="shortcut icon" href="/img/logo/mini-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
-                <?php if (isset($_SESSION['compte']) == null) { ?>
-                    <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
-                <?php } else { ?>
-                    <li><a href="/ctrl/logout.php">Déconnexion</a></li>
-                <?php } ?>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
+            <li><a href="/ctrl/logout.php">Deconnexion</a></li>
+        </ul>
+    </nav>
+    <a id="ajouter" href="/ctrl/jeu/add-display.php"><img src="/img/logo/add.webp" alt="">Ajouter un jeu</a>
+    <a id="ajouterpc" href="/ctrl/jeu/add-display.php"><img src="/img/logo/BAG_geek_one.webp" alt="">Ajouter un jeu</a>
     <main>
 
         <table>
@@ -36,9 +31,8 @@
             <!-- Entêtes de colonne écrites 'en dur' -->
             <thead>
                 <tr>
-                    <th>Id</th>
                     <th>Titre</th>
-                    <th>user</th>
+                    <th>Age</th>
                 </tr>
             </thead>
 
@@ -46,9 +40,8 @@
                 <?php foreach ($listJeu as $jeu) { ?>
 
                     <tr>
-                        <td><?= $jeu['id'] ?></td>
                         <td><?= $jeu['titre'] ?></td>
-                        <td><?= $jeu['pseudoUser'] ?></td>
+                        <td><?= $jeu['age'] ?></td>
                         <td>
                             <a class="supprimer" href="/ctrl/jeu/delete.php?id=<?= $jeu['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
                         </td>

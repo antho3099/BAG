@@ -11,25 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kdam+Thmor+Pro&family=Russo+One&display=swap" rel="stylesheet">
     <script src="/js/menu.js" defer></script>
     <script src="/js/diaporama.js" defer></script>
-    <script src="/js/like_dislike.js" defer></script>
+    <link rel="shortcut icon" href="/img/logo/mini-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
-                <?php if (isset($_SESSION['compte']) == null) { ?>
-                    <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
-                <?php } else { ?>
-                    <li><a href="/ctrl/logout.php">Déconnexion</a></li>
-                <?php } ?>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navigation">>
+        <ul>
+            <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
+            <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
+            <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
+            <?php if (isset($_SESSION['compte']) == null) { ?>
+                <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
+            <?php } else { ?>
+                <li><a href="/ctrl/logout.php">Déconnexion</a></li>
+            <?php } ?>
+        </ul>
+    </nav>
     <div class="gamenav">
         <nav>
             <ul>
@@ -89,22 +87,6 @@
             <li><img class="small" src="<?= '/gallery6/' . $jeu['diaposix'] ?>" alt="<?= $jeu['titre'] ?>"></li>
         </ul>
     </div>
-    <?php if (isset($_SESSION['compte']) == null) { ?>
-        <div id="hey">
-            <h2>Noter le jeu</h2>
-            <p>Vous devez vous connecter pour noter le jeu </p>
-        </div>
-    <?php } else { ?>
-        <div id="likeordislike">
-            <h2>Noter le jeu</h2>
-            <div id="result">
-                <!--j'aime-->
-                <img class="like" src="/img/logo/like.webp" alt="">
-                <!--j'aime pas-->
-                <img class="dislike" src="/img/logo/dislike.webp" alt="">
-            </div>
-        </div>
-    <?php } ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>
 

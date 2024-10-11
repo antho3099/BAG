@@ -15,16 +15,14 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-                <li><a href="">Se connecter</a></li>
-                <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-                <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
+            <li><a href="">Se connecter</a></li>
+            <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
+            <li><a href="https://sparkinggeek.alwaysdata.net/ctrl/welcome/welcome.php">Sparking Geek</a></li>
+        </ul>
+    </nav>
     <div class="bienvenue">
         <h2>AJOUTER UN JEU</h2>
     </div>

@@ -24,6 +24,26 @@
     margin-bottom: 5px;
 }
 
+@media screen and (max-width: 400px) {
+    .screenshotmobile {
+        width: 350px;
+        display: block;
+        margin: auto;
+        border-radius: 3px;
+        border: 1px solid white;
+        margin-bottom: 5px;
+    }
+
+    #screentwomobile {
+        width: 350px;
+        display: block;
+        margin: auto;
+        border-radius: 3px;
+        border: 1px solid white;
+        margin-bottom: 5px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     #screenshots {
         width: 750px;
@@ -46,4 +66,29 @@
     #screentwomobile {
         display: none;
     }
+}
+
+@media screen and (min-width: 1600px) {
+    #screenshots {
+        width: 800px;
+        margin-top: 25px;
+        margin-left: 940px;
+        display: block;
+    }
+
+    .screenshotmobile {
+        display: none;
+    }
+
+    #screentwo {
+        width: 800px;
+        margin-top: 75px;
+        margin-left: 15px;
+        display: block;
+    }
+
+    #screentwomobile {
+        display: none;
+    }
+
 }

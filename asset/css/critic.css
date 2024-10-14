@@ -50,3 +50,15 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    #critic {
+        background-color: darkblue;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        width: 800px;
+        margin-top: 15px;
+        margin-left: 995px;
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+}

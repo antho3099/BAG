@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Blog Spécialisé dans l'univers du jeu vidéo">
+    <meta name="keywords" content="jeux, gaming, vidéo game">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Baraque a Gaming</title>
     <link rel="stylesheet" href="/asset/css/style.css">
@@ -40,7 +42,7 @@
     <?php if (isset($_SESSION['compte']['idRole']) == null) { ?>
         <section class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
-            <img id="geek" src="/img/BAG_Gaming_section.webp" alt="">
+            <img id="geek" src="/img/gamerverse_v2.webp" alt="">
             <div class="gamer">
                 <h2>JEUX VIDEOS</h2>
                 <p>Venez découvrir le monde du jeu vidéo </br> avec
@@ -50,7 +52,7 @@
         </section>
         <section class="sectionsparking">
             <img id="geektime" src="/img/spark.webp" alt="">
-            <img id="sparkinggeek" src="/img/BAG_Sparking_Geek.webp" alt="">
+            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="">
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
@@ -59,7 +61,7 @@
         </section>
         <section class="sectionstory">
             <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
-            <img id="geekstory" src="/img/BAG_Geek_mk2.webp" alt="">
+            <img id="geekstory" src="/img/aproposimg.png" alt="">
             <div class="origins">
                 <h2>La Baraque a Gaming</h2>
                 <p>Découvrez l'histoire de la Baraque à Gaming </p>
@@ -71,7 +73,7 @@
     <?php } else if ($_SESSION['compte']['idRole'] == 1) { ?>
         <div class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
-            <img id="geek" src="/img/BAG_Gaming_section.webp" alt="">
+            <img id="geek" src="/img/gamerverse_v2.webp" alt="">
             <section class="gamer">
                 <h2>JEUX VIDEOS</h2>
                 <p>Venez découvrir le monde du jeu vidéo </br> avec
@@ -81,7 +83,7 @@
         </section>
         <section class="sectionsparking">
             <img id="geektime" src="/img/spark.webp" alt="">
-            <img id="sparkinggeek" src="/img/BAG_Sparking_Geek.webp" alt="">
+            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="">
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
@@ -90,7 +92,7 @@
         </section>
         <section class="sectionstory">
             <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
-            <img id="geekstory" src="/img/BAG_Geek_mk2.webp" alt="">
+            <img id="geekstory" src="/img/aproposimg.png" alt="">
             <div class="origins">
                 <h2>La Baraque a Gaming</h2>
                 <p>Découvrez l'histoire de la Baraque à Gaming </p>
@@ -110,7 +112,7 @@
     <?php } else if ($_SESSION['compte']['idRole'] == 2) { ?>
         <section class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
-            <img id="geek" src="/img/BAG_Gaming_section.webp" alt="">
+            <img id="geek" src="/img/gamerverse_v2.webp" alt="">
             <div class="gamer">
                 <h2>JEUX VIDEOS</h2>
                 <p>Venez découvrir le monde du jeu vidéo </br> avec
@@ -120,7 +122,7 @@
         </section>
         <section class="sectionsparking">
             <img id="geektime" src="/img/spark.webp" alt="">
-            <img id="sparkinggeek" src="/img/BAG_Sparking_Geek.webp" alt="">
+            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="">
             <div class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
@@ -129,7 +131,7 @@
         </section>
         <section class="sectionstory">
             <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
-            <img id="geekstory" src="/img/BAG_Geek_mk2.webp" alt="">
+            <img id="geekstory" src="/img/aproposimg.png" alt="">
             <div class="origins">
                 <h2>La Baraque a Gaming</h2>
                 <p>Découvrez l'histoire de la Baraque à Gaming </p>

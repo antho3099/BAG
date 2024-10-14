@@ -54,7 +54,7 @@
     margin-top: 15px;
 }
 
-@media screen and (min-width:400px) {
+@media screen and (max-width: 400px) {
     .sectionstory .origins a {
         font-family: "Kdam Thmor Pro", sans-serif;
         font-size: 20px;
@@ -64,13 +64,14 @@
         background-color: gold;
         color: black;
         border: 2px solid black;
+        display: block;
         margin: auto;
         padding: 2px;
-        padding-left: 85px;
-        padding-right: 85px;
-        margin-left: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
         border-radius: 5px;
         margin-top: 15px;
+        width: 125px;
     }
 }
 
@@ -86,8 +87,8 @@
 
     .sectionstory #geekstory {
         display: block;
-        width: 500px;
-        margin-left: 5px;
+        width: 430px;
+        margin-left: 15px;
     }
 
     .sectionstory .origins {
@@ -96,7 +97,7 @@
         align-items: start;
         justify-content: start;
         margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .sectionstory .origins h2 {
@@ -130,6 +131,66 @@
         padding-right: 105px;
         position: relative;
         left: 85px
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .sectionstory {
+        background: none;
+        display: flex;
+    }
+
+    .sectionstory #geekorigin {
+        display: none;
+    }
+
+    .sectionstory #geekstory {
+        display: block;
+        width: 500px;
+        margin-left: 85px;
+    }
+
+    .sectionstory .origins {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-left: 95px;
+        margin-top: 60px;
+    }
+
+    .sectionstory .origins h2 {
+        font-size: 130px;
+        margin-top: 5px;
+        text-align: start;
+        font-style: italic;
+        margin-left: 10px;
+    }
+
+    .sectionstory .origins p {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: white;
+        font-size: 50px;
+        margin-bottom: 35px;
+        text-align: justify;
+        font-style: italic;
+        width: 800px;
+    }
+
+    .sectionstory .origins a {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 27px;
+        text-align: start;
+        text-decoration: none;
+        background-color: gold;
+        color: black;
+        border: 2px solid black;
+        padding: 20px;
+        padding-left: 105px;
+        padding-right: 105px;
+        position: relative;
+        left: 215px
     }
 
 }

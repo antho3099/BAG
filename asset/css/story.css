@@ -50,3 +50,35 @@
         text-align: justify;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    #histoire {
+        width: 900px;
+        background-color: darkblue;
+        border-radius: 5px;
+        position: absolute;
+        left: 15px;
+        top: 715px;
+
+    }
+
+    #histoire h2 {
+        font-size: 45px;
+        background: none;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+    }
+
+    #histoire p {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 25px;
+        color: white;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 23px;
+        text-align: justify;
+    }
+}

@@ -53,3 +53,29 @@
         margin: auto;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    #note {
+        width: 500px;
+        margin-top: 125px;
+        margin-left: 95px;
+    }
+
+    #note h2 {
+        font-size: 50px;
+        background-color: none;
+        border-radius: 5px;
+    }
+
+    #note h3 {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 125px;
+        text-align: center;
+        color: mediumblue;
+    }
+
+    #result input {
+        display: block;
+        margin: auto;
+    }
+}

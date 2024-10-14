@@ -47,6 +47,17 @@
     width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+    #screendiapo .imageprincipale {
+        width: 350px;
+        display: block;
+        margin: auto;
+        border: 2px solid white;
+        margin-top: 15px;
+        border-radius: 3px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     #screendiapo {
         width: 90%;
@@ -69,6 +80,58 @@
 
     #screendiapo .imageprincipale {
         width: 950px;
+        display: block;
+        margin: auto;
+        border: 2px solid white;
+        margin-top: 15px;
+        border-radius: 3px;
+    }
+
+    #screendiapo ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #screendiapo li {
+        border: 1px solid white;
+        list-style: none;
+        width: 190px;
+        margin-top: 5px;
+        padding-bottom: 55px;
+    }
+
+    .small {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #screendiapo {
+        width: 90%;
+        background-color: darkblue;
+        border-radius: 6px;
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #screendiapo h2 {
+        font-size: 65px;
+        background: none;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+    }
+
+    #screendiapo .imageprincipale {
+        width: 990px;
         display: block;
         margin: auto;
         border: 2px solid white;

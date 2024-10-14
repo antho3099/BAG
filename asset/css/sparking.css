@@ -77,6 +77,27 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .sectionsparking .sparking a {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 20px;
+        margin-top: 55px;
+        text-align: center;
+        text-decoration: none;
+        background-color: gold;
+        color: black;
+        border: 2px solid black;
+        display: block;
+        margin: auto;
+        padding: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        margin-top: 15px;
+        width: 125px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .sectionsparking {
         background: none;
@@ -99,13 +120,13 @@
     }
 
     .sectionsparking img {
-        width: 680px;
+        width: 550px;
 
     }
 
     .sectionsparking .sparking {
         margin-top: 85px;
-        margin-right: 20px;
+        margin-right: 150px;
     }
 
     .sectionsparking .sparking h2 {
@@ -142,6 +163,76 @@
         left: 200px;
         top: 55px;
         padding: 10px;
+        padding-left: 115px;
+        padding-right: 115px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .sectionsparking {
+        background: none;
+    }
+
+    .sectionsparking #geektime {
+        display: none;
+    }
+
+    .sectionsparking {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .sectionsparking #sparkinggeek {
+        display: flex;
+        margin-right: 125px;
+
+    }
+
+    .sectionsparking img {
+        width: 550px;
+
+    }
+
+    .sectionsparking .sparking {
+        margin-top: 85px;
+        margin-right: 370px;
+    }
+
+    .sectionsparking .sparking h2 {
+        font-size: 150px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: gold;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        font-style: italic;
+        text-align: end;
+        width: 900px;
+        position: relative;
+        left: 155px;
+
+
+    }
+
+    .sectionsparking .sparking p {
+
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 45px;
+        color: white;
+        margin-bottom: 35px;
+        position: relative;
+        left: 220px;
+        text-align: start;
+        font-style: italic;
+
+    }
+
+    .sectionsparking .sparking a {
+        position: relative;
+        left: 400px;
+        top: 55px;
+        padding: 20px;
         padding-left: 115px;
         padding-right: 115px;
     }

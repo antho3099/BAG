@@ -30,28 +30,34 @@ header .menu {
     display: none;
 }
 
-@media screen and (min-width:400px) {
+@media screen and (max-width: 400px) {
+    header {
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
     header .avatar {
-        width: 60px;
-        height: 60px;
+        width: 75px;
+        height: 75px;
         border-radius: 100%;
-        margin-right: 15px;
+        margin-right: 25px;
         margin-top: 7px;
+    }
+
+    header .bag {
+        width: 130px;
+        margin-top: 5px;
     }
 
     header .menu {
         width: 45px;
         height: 45px;
-        position: relative;
-        left: 5px;
-        top: 12px;
-    }
+        margin-right: 5px;
+        margin-top: 5px;
 
-    header .bag {
-        width: 130px;
-        margin-right: 24px;
     }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -83,5 +89,38 @@ header .menu {
         width: 180px;
         position: relative;
         right: 920px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    header {
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .avatar {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        position: relative;
+        top: 10px;
+        left: 1150px;
+    }
+
+    header .menu {
+        width: 45px;
+        height: 45px;
+        position: relative;
+        left: 10px;
+        top: 12px;
+        display: none;
+    }
+
+    header .bag {
+        width: 200px;
+        position: relative;
+        right: 1230px;
+        top: 2px;
     }
 }

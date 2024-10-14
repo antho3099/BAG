@@ -54,6 +54,27 @@
     margin-top: 15px;
 }
 
+@media screen and (max-width: 400px) {
+    .sectionjeu .gamer a {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 20px;
+        margin-top: 55px;
+        text-align: center;
+        text-decoration: none;
+        background-color: gold;
+        color: black;
+        border: 2px solid black;
+        display: block;
+        margin: auto;
+        padding: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        margin-top: 15px;
+        width: 125px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .sectionjeu {
         background: none;
@@ -116,4 +137,66 @@
         right: 5px
     }
 
+}
+
+@media screen and (min-width: 1600px) {
+    .sectionjeu {
+        background: none;
+        display: flex;
+    }
+
+    .sectionjeu img {
+        width: 550px;
+    }
+
+    .sectionjeu #one {
+        display: none;
+    }
+
+    .sectionjeu #geek {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .sectionjeu .gamer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-left: 150px;
+        margin-top: 80px;
+    }
+
+    .sectionjeu .gamer h2 {
+        font-size: 180px;
+        margin-top: 10px;
+        text-align: start;
+        font-style: italic;
+        margin-left: 10px;
+    }
+
+    .sectionjeu .gamer p {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: white;
+        font-size: 45px;
+        margin-bottom: 35px;
+        text-align: justify;
+        font-style: italic;
+        width: 855px;
+    }
+
+    .sectionjeu .gamer a {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 27px;
+        text-align: start;
+        text-decoration: none;
+        background-color: gold;
+        color: black;
+        border: 2px solid black;
+        padding: 20px;
+        padding-left: 105px;
+        padding-right: 105px;
+        position: relative;
+        left: 95px
+    }
 }

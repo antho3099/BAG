@@ -45,13 +45,14 @@
     background-color: gold;
     color: black;
     border: 2px solid black;
+    display: block;
     margin: auto;
     padding: 2px;
     padding-left: 85px;
     padding-right: 85px;
-    margin-left: 89px;
     border-radius: 5px;
     margin-top: 15px;
+    width: 100px;
 }
 
 @media screen and (max-width: 400px) {
@@ -109,7 +110,7 @@
         margin-top: 10px;
         text-align: start;
         font-style: italic;
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
     .sectionjeu .gamer p {
@@ -120,6 +121,7 @@
         text-align: justify;
         font-style: italic;
         width: 655px;
+        margin-left: 40px;
     }
 
     .sectionjeu .gamer a {
@@ -130,11 +132,12 @@
         background-color: gold;
         color: black;
         border: 2px solid black;
-        padding: 10px;
+        padding: 5px;
         padding-left: 105px;
         padding-right: 105px;
         position: relative;
-        right: 5px
+        right: 65px;
+        width: 125px;
     }
 
 }
@@ -193,10 +196,10 @@
         background-color: gold;
         color: black;
         border: 2px solid black;
-        padding: 20px;
+        padding: 10px;
         padding-left: 105px;
         padding-right: 105px;
         position: relative;
-        left: 95px
+        left: 75px
     }
 }

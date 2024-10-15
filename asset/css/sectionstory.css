@@ -39,19 +39,19 @@
 .sectionstory .origins a {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 20px;
-    margin-top: 55px;
     text-align: center;
     text-decoration: none;
     background-color: gold;
     color: black;
     border: 2px solid black;
+    display: block;
     margin: auto;
     padding: 2px;
     padding-left: 85px;
     padding-right: 85px;
-    margin-left: 89px;
     border-radius: 5px;
     margin-top: 15px;
+    width: 100px;
 }
 
 @media screen and (max-width: 400px) {
@@ -126,11 +126,12 @@
         background-color: gold;
         color: black;
         border: 2px solid black;
-        padding: 10px;
+        padding: 5px;
         padding-left: 105px;
         padding-right: 105px;
         position: relative;
-        left: 85px
+        left: 15px;
+        width: 125px;
     }
 
 }

@@ -76,7 +76,7 @@
         <p><?= $jeu['critique'] ?></p>
     </div>
     <div id="screendiapo">
-        <h2>Images</h2>
+        <h2>Gallerie</h2>
         <img class="imageprincipale" src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>">
         <ul>
             <li><img class="small" src="<?= '/gallery1/' . $jeu['diapo'] ?>" alt="<?= $jeu['titre'] ?>"></li>

@@ -1,7 +1,8 @@
 -- - Supprime la base de données si elle existe déjà
 -- - Crée la base de données
 -- - Mentionne le nom de la base de données à utiliser pour exécuter les commandes SQL qui suivent
-USE `530-php-BAG-ANG`;DROP DATABASE IF EXISTS `530-php-BAG-ANG`;
+USE `530-php-BAG-ANG`;
+DROP DATABASE IF EXISTS `530-php-BAG-ANG`;
 CREATE DATABASE IF NOT EXISTS `530-php-BAG-ANG`;
 
 

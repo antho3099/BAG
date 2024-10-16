@@ -82,3 +82,40 @@ function delete($id, PDO $db): bool
 
     return $successOrFailure;
 }
+function update(string $id, string $titre, string $studio, string $sortie, string $genre, string $age, string $plateforme, string $prix, string $story, string $avis, string $note, string $critique, PDO $db): bool
+{
+    // Prépare la requête
+    $query = '';
+    $query .= ' UPDATE jeu';
+    $query .= ' SET';
+    $query .= ' jeu.titre = :titre';
+    $query .= ' ,jeu.studio = :studio';
+    $query .= ' ,jeu.sortie = :sortie';
+    $query .= ' ,jeu.genre = :genre';
+    $query .= ' ,jeu.age = :age';
+    $query .= ' ,jeu.plateforme = :plateforme';
+    $query .= ' ,jeu.prix = :prix';
+    $query .= ' ,jeu.story = :story';
+    $query .= ' ,jeu.avis = :avis';
+    $query .= ' ,jeu.note = :note';
+    $query .= ' ,jeu.critique = :critique';
+    $query .= ' WHERE jeu.id = :idJeu';
+    $statement = $db->prepare($query);
+    $statement->bindParam(':titre', $titre);
+    $statement->bindParam(':studio', $studio);
+    $statement->bindParam(':sortie', $sortie);
+    $statement->bindParam(':genre', $genre);
+    $statement->bindParam(':age', $age);
+    $statement->bindParam(':plateforme', $plateforme);
+    $statement->bindParam(':prix', $prix);
+    $statement->bindParam(':story', $story);
+    $statement->bindParam(':avis', $avis);
+    $statement->bindParam(':note', $note);
+    $statement->bindParam(':critique', $critique);
+    $statement->bindParam(':idJeu', $id);
+
+    // Exécute la requête
+    $successOrFailure = $statement->execute();
+
+    return $successOrFailure;
+}

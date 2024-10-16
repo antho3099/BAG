@@ -44,6 +44,7 @@
                         <td><?= $jeu['age'] ?></td>
                         <td>
                             <a class="supprimer" href="/ctrl/jeu/delete.php?id=<?= $jeu['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
+                            <a class="modifier" href="/ctrl/jeu/update-display.php?id=<?= $jeu['id'] ?>">Modifier</a>
                         </td>
                     </tr>
                 <?php } ?>

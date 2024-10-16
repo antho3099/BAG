@@ -187,11 +187,11 @@
         background-color: gold;
         color: black;
         border: 2px solid black;
-        padding: 20px;
+        padding: 10px;
         padding-left: 105px;
         padding-right: 105px;
         position: relative;
-        left: 215px
+        right: 195px
     }
 
 }

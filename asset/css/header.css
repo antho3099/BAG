@@ -16,6 +16,7 @@ header .avatar {
 header .bag {
     width: 130px;
     margin-right: 40px;
+    content: url(/img/logo/BAG_legacy.webp);
 }
 
 header .menu {
@@ -49,6 +50,7 @@ header .menu {
     header .bag {
         width: 130px;
         margin-top: 5px;
+        content: url(/img/logo/BAG_legacy.webp);
     }
 
     header .menu {
@@ -89,6 +91,7 @@ header .menu {
         width: 180px;
         position: relative;
         right: 920px;
+        content: url(/img/logo/BAG_legacy.webp);
     }
 }
 
@@ -122,5 +125,6 @@ header .menu {
         position: relative;
         right: 1230px;
         top: 2px;
+        content: url(/img/logo/BAG_legacy.webp);
     }
 }

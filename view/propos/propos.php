@@ -31,28 +31,11 @@
             <img id="baglogo" src="/img/logo/BAG_Logo.webp" alt="">
             <div class="intro">
                 <h2>La Baraque a Gaming</h2>
-                <p>La Baraque a Gaming est un blog qui est spécialisé sur l'univers du jeu vidéo. Ce blog est centré sur l'univers du jeu vidéo et contient deux sections, la section "Jeux Vidéos" et la section "Sparking Geek", il possède plusieurs objectifs: Découvrir et influencer.</p>
-            </div>
-        </div>
-        <div class="objectone">
-            <img id="sonic" src="/img/BAG_sonic.webp" alt="">
-            <div class="discover">
-                <h2>Découvrir</h2>
-                <p>L'objectif de "Découvrir" est de faire connaître le monde du jeu vidéo et d'être au courant des jeux qui sont sortis <br> (ex: Ellen, une maman, apprend que son fils Tobias veut un jeu alors qu'il n'y connait pas grand chose en jeux vidéos).</p>
-            </div>
-        </div>
-        <div class="objecttwo">
-            <img id="goku" src="/img/card/DB_gokussg.webp" alt="">
-            <div class="influencer">
-                <h2>Influencer</h2>
-                <p>
-                    L'objectif de "Influencer" est très important, sa mission est d'informer le visiteur du jeu qu'il veut et de voir si le jeu est bon ou pas afin qu'il ne puisse pas dépenser son argent maladroitement <br> (ex: Stephen, 23 ans, a dépensé plus de 80 € dans un jeu et est déçu du jeu). <br> Mais le plus important est qu'il permet de voir toutes les informations
-                    du jeu et voir si le jeu est fait pour ou pour un proche (Restriction 18+) <br> (ex: Sophie, 23 ans, voit que son fils de 8 ans veut Grand Theft Auto V (jeu 18+) pour son anniversaire et a besoin de conseiller un autre jeu à son fils).
-                </p>
+                <p>La Baraque a Gaming est un blog qui est spécialisé sur l'univers du jeu vidéo. Ce blog est centré sur l'univers du jeu vidéo et contient deux sections, la section "Jeux Vidéos" et la section "Sparking Geek", il possède plusieurs objectifs: Informer et Partager.</p>
             </div>
         </div>
         <div class="gamestory">
-            <img id="baggame" src="/img/card/BAG_Like_a_dragon_gaiden.webp" alt="">
+            <img id="baggame" src="/img/card/BAG_spiderman.webp" alt="">
             <div class="gamingsection">
                 <h2>Jeux Vidéos</h2>
                 <p>
@@ -67,7 +50,7 @@
             <div class="sparkstory">
                 <h2>Sparking Geek !</h2>
                 <p>
-                    "Sparking Geek" est un blog centré sur les jeux vidéos. Contrairement à donner des informations sur un jeu, ce site est un blog d'actualités sur les jeux vidéos. Cela peut être des test, des critiques, des sondages ou encore des questions. <br>
+                    "Sparking Geek" est une section dédié aux actualités du jeu vidéo qui vous propose des articles. Cela peut être des test, des critiques, des sondages ou encore des questions. <br>
                     "Sparking Geek" a un but similaire à celui de découvrir mais il en a un autre: attirer la curioisité et faire douter les joueurs. <br> (ex: The Last Of Us: Pourquoi Joel décide de sauver Ellie et mettre l'univers en péril ?) <br>
                     Parfois, "Sparking geek" donne des nouvelles sur les prochains jeux qui risquent d'arriver. <br>
                     (ex: Dragon Ball: Sparking Zero: Goku Black et Goku Ultra Instinct arrivent dans le jeu) <br>
@@ -76,10 +59,10 @@
             </div>
         </div>
         <div class="creator">
-            <img id="creatorimg" src="/img/card/BAG_spiderman.webp" alt="">
+            <img id="creatorimg" src="/img/BAG_vegeto.webp" alt="">
             <div class="creatorstory">
                 <h2>Son créateur</h2>
-                <p>Fan de jeux vidéos, j'adore les anciennes licences comme "Tomb Raider", "Spider-Man" ou encore "The Last Of Us" mais j'aime aussi les licences qui émergent comme "Cyberpunk 2077", "Astro Bot" ou "God Of War" mais j'aime aussi les jeux de sport. j'ai développé "La Baraque A Gaming" afin de vous sensibiliser sur les choix que vous faîtes lors d'un achat ou lors d'une sortie de jeu </p>
+                <p>Grand amateur de jeux vidéos, j'aime beaucoup jouer à des licences cultes comme "Tomb Raider", "Dragon Ball", "The Last Of Us", "Like A Dragon / Yakuza" et plein d'autres. Fan de jeux mais aussi d'audiovisuel, je me donne à 100% afin de vous donner du contenu et pour vous informer des dernières nouveautés en matière de jeu vidéo</p>
             </div>
         </div>
     </div>

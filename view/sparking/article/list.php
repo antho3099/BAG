@@ -17,15 +17,9 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
     <nav>
         <ul>
+            <li><a href="/ctrl/dashboard/dashboard.php">Retour</a></li>
             <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
-            <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
-            <li><a href="/ctrl/sparking/sparkinggeek.php">Sparking Geek</a></li>
-            <li><a href="/ctrl/propos/propos.php">A Propos</a></li>
-            <?php if (isset($_SESSION['compte']) == null) { ?>
-                <li><a href="/ctrl/login/login-display.php">Connexion</a></li>
-            <?php } else { ?>
-                <li><a href="/ctrl/logout.php">Déconnexion</a></li>
-            <?php } ?>
+            <li><a href="/ctrl/logout.php">Deconnexion</a></li>
         </ul>
     </nav>
     <main>

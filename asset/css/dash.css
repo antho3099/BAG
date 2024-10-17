@@ -114,6 +114,67 @@
     color: black;
 }
 
+@media screen and (max-width:400px) {
+    .dashboardgame {
+        background-color: darkblue;
+        border: 3px solid gold;
+        margin-top: 25px;
+        margin-left: 65px;
+        margin-right: 65px;
+        border-radius: 5px;
+        padding-bottom: 25px;
+    }
+
+    #dashgameimg {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .dashboardgame h2 {
+        text-align: center;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+        font-size: 35px;
+    }
+
+    #dashuserimg {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .dashboarduser h2 {
+        text-align: center;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+        font-size: 35px;
+    }
+
+    .dashboardadd img {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+    .dashboardadd h2 {
+        text-align: center;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    
+}
+
 @media screen and (min-width: 992px) {
     .ogdashboard {
         display: flex;

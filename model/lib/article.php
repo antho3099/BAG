@@ -72,3 +72,32 @@ function delete($id, PDO $db): bool
 
     return $successOrFailure;
 }
+function updateArticle(string $id, string $une, string $paragraph, string $minititle, string $paragraphtwo, string $minititletwo, string $paragraphthree, string $date, PDO $db): bool
+{
+    // Prépare la requête
+    $query = '';
+    $query .= ' UPDATE article';
+    $query .= ' SET';
+    $query .= ' article.une = :une';
+    $query .= ' ,article.paragraph = :paragraph';
+    $query .= ' ,article.minititle = :minititle';
+    $query .= ' ,article.paragraphtwo = :paragraphtwo';
+    $query .= ' ,article.minititletwo = :minititletwo';
+    $query .= ' ,article.paragraphthree = :paragraphthree';
+    $query .= ' ,article.date = :date';
+    $query .= ' WHERE article.id = :idArticle';
+    $statement = $db->prepare($query);
+    $statement->bindParam(':une', $une);
+    $statement->bindParam(':paragraph', $paragraph);
+    $statement->bindParam(':minititle', $minititle);
+    $statement->bindParam(':paragraphtwo', $paragraphtwo);
+    $statement->bindParam(':minititletwo', $minititletwo);
+    $statement->bindParam(':paragraphthree', $paragraphthree);
+    $statement->bindParam(':date', $date);
+    $statement->bindParam(':idArticle', $id);
+
+    // Exécute la requête
+    $successOrFailure = $statement->execute();
+
+    return $successOrFailure;
+}

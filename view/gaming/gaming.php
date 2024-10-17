@@ -15,7 +15,7 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <nav class="navigation">
+    <nav>
         <ul>
             <?php if (isset($_SESSION['compte']) == null) { ?>
                 <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>

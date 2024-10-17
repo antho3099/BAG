@@ -91,3 +91,27 @@
         top: 2px;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    #sparkheader {
+        background-color: darkblue;
+        justify-content: space-around;
+        height: 117px;
+    }
+
+    #sparkheader .sparkingeeklogo {
+        width: 380px;
+        position: relative;
+        right: 1100px;
+        top: 2px;
+    }
+
+    #sparkheader .avatar {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        position: relative;
+        top: 12px;
+        left: 1200px;
+    }
+}

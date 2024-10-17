@@ -15,7 +15,7 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <nav class="navigation">
+    <nav>
         <ul>
             <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
             <li><a href="/ctrl/logout.php">Deconnexion</a></li>

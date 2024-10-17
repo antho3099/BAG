@@ -15,7 +15,7 @@
 
 <body class="sparkingbody">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/sparkingheader.php' ?>
-    <nav class="navigation">
+    <nav>
         <ul>
             <?php if (isset($_SESSION['compte']) == null) { ?>
                 <li><a href="/ctrl/welcome/welcome.php">Retour à la Baraque</a></li>

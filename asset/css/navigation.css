@@ -116,6 +116,16 @@ nav ul li a {
 }
 
 @media screen and (min-width: 1600px) {
+    nav {
+        background: none;
+        position: absolute;
+        display: block;
+        top: 1px;
+        left: 355px;
+        width: 1200px;
+        height: 95px;
+    }
+
     nav ul li a {
         color: gold;
         font-family: "Russo One", sans-serif;
@@ -125,6 +135,5 @@ nav ul li a {
         -webkit-text-stroke-color: black;
         font-variant: small-caps;
         font-variant-caps: all-small-caps;
-
     }
 }

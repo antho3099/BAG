@@ -15,7 +15,7 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <nav class="navigation">
+    <nav>
         <ul>
             <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
             <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>
@@ -36,7 +36,6 @@
             <!-- Entêtes de colonne écrites 'en dur' -->
             <thead>
                 <tr>
-                    <th>Id</th>
                     <th>Titre</th>
                     <th>user</th>
                 </tr>
@@ -46,11 +45,11 @@
                 <?php foreach ($listArticle as $article) { ?>
 
                     <tr>
-                        <td><?= $article['id'] ?></td>
                         <td><?= $article['une'] ?></td>
                         <td><?= $article['pseudoUser'] ?></td>
                         <td>
                             <a class="supprimer" href="/ctrl/article/delete.php?id=<?= $article['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
+                            <a class="modifier" href="/ctrl/article/update-display.php?id=<?= $article['id'] ?>">Modifier</a>
                         </td>
                     </tr>
                 <?php } ?>

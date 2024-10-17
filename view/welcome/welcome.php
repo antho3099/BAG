@@ -79,65 +79,66 @@
                 <p>Venez découvrir le monde du jeu vidéo </br> avec
                     des jeux à couper le souffle</p>
                 <a href="/ctrl/gaming/gaming.php">Let's Go !</a>
+            </section>
         </div>
-        </section>
-        <section class="sectionsparking">
-            <img id="geektime" src="/img/spark.webp" alt="">
-            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="">
-            <div class="sparking">
+        <div class="sectionsparking">
+            <img id="geektime" src="/img/spark.webp" alt="Sparking Geek mobile">
+            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="Sparking Geek ordinateur">
+            <section class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
                 <a href="/ctrl/sparking/sparkinggeek.php">Let's Go !</a>
-            </div>
-        </section>
-        <section class="sectionstory">
+            </section>
+        </div>
+        <div class="sectionstory">
             <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
             <img id="geekstory" src="/img/aproposimg.png" alt="">
-            <div class="origins">
+            <section class="origins">
                 <h2>La Baraque a Gaming</h2>
                 <p>Découvrez l'histoire de la Baraque à Gaming </p>
                 <a href="/ctrl/propos/propos.php">Let's Go !</a>
-            </div>
-        </section>
-        <section class="bagboard">
+            </section>
+        </div>
+        <div class="bagboard">
             <img id="dashboardimg" src="/img/BAG_Geek_Dashboard.webp" alt="">
             <img id="dashboardgeek" src="/img/BAG_Dashboard.webp" alt="">
-            <div class="dash">
+            <section class="dash">
                 <h2>Dashboard</h2>
                 <p>Le tableau de board <br> pour l'administrateur</p>
                 <a href="/ctrl/dashboard/dashboard.php">C'est Parti</a>
-            </div>
-        </section>
+            </section>
+        </div>
+
         <!--Si l'utilisateur est connecté-->
     <?php } else if ($_SESSION['compte']['idRole'] == 2) { ?>
-        <section class="sectionjeu">
+        <div class="sectionjeu">
             <img id="one" src="/img/BAG-Section_game.webp" alt="">
             <img id="geek" src="/img/gamerverse_v2.webp" alt="">
-            <div class="gamer">
+            <section class="gamer">
                 <h2>JEUX VIDEOS</h2>
                 <p>Venez découvrir le monde du jeu vidéo </br> avec
                     des jeux à couper le souffle</p>
                 <a href="/ctrl/gaming/gaming.php">Let's Go !</a>
-            </div>
-        </section>
-        <section class="sectionsparking">
-            <img id="geektime" src="/img/spark.webp" alt="">
-            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="">
-            <div class="sparking">
+            </section>
+        </div>
+        <div class="sectionsparking">
+            <img id="geektime" src="/img/spark.webp" alt="Sparking Geek mobile">
+            <img id="sparkinggeek" src="/img/sparkingimg.webp" alt="Sparking Geek ordinateur">
+            <section class="sparking">
                 <h2>Sparking Geek</h2>
                 <p>Le site ou l'actualité du jeu vidéo <br> règne en maître</p>
                 <a href="/ctrl/sparking/sparkinggeek.php">Let's Go !</a>
-            </div>
-        </section>
-        <section class="sectionstory">
+            </section>
+        </div>
+        <div class="sectionstory">
             <img id="geekorigin" src="/img/BAG_Origin.webp" alt="">
             <img id="geekstory" src="/img/aproposimg.png" alt="">
-            <div class="origins">
+            <section class="origins">
                 <h2>La Baraque a Gaming</h2>
                 <p>Découvrez l'histoire de la Baraque à Gaming </p>
                 <a href="/ctrl/propos/propos.php">Let's Go !</a>
-            </div>
-        </section>
+            </section>
+        </div>
     <?php } ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/footer.php' ?>
 </body>

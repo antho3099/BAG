@@ -1,28 +1,47 @@
 table {
-    margin-left: 25px;
-    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 139, 0.57);
+    border-radius: 3px;
 }
 
-table tr {
-    gap: 198px;
-    display: flex;
+thead tr th {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: gold;
+    font-size: 20px;
     text-align: center;
-    margin-left: 15px;
+
 }
 
-table th {
+tbody {
+    width: 200px;
+}
+
+tbody tr td {
+    text-align: justify;
+    color: white;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-tbody tr {
-    gap: 65px;
-    display: flex;
+tbody .titlegame {
+    width: 245px;
+    padding-right: 25px;
 }
 
-tbody td {
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 100;
+tbody .agegame {
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
 }
+
+tbody tr td a {
+    text-decoration: none;
+    color: gold;
+    padding-right: 15px;
+}
+
 
 @media screen and (min-width: 992px) {
     table {

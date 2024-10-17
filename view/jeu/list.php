@@ -15,7 +15,7 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <nav>
+    <nav class="navigation">
         <ul>
             <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
             <li><a href="/ctrl/logout.php">Deconnexion</a></li>
@@ -40,8 +40,8 @@
                 <?php foreach ($listJeu as $jeu) { ?>
 
                     <tr>
-                        <td><?= $jeu['titre'] ?></td>
-                        <td><?= $jeu['age'] ?></td>
+                        <td class="titlegame"><?= $jeu['titre'] ?></td>
+                        <td class="agegame"><?= $jeu['age'] ?></td>
                         <td>
                             <a class="supprimer" href="/ctrl/jeu/delete.php?id=<?= $jeu['id'] ?>" onclick="return confirm('Vous êtes-sûr(e) ?')">Supprimer</a>
                             <a class="modifier" href="/ctrl/jeu/update-display.php?id=<?= $jeu['id'] ?>">Modifier</a>

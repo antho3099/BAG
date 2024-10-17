@@ -37,6 +37,35 @@
     color: black;
 }
 
+@media screen and (max-width:400px) {
+    .articledashboard img {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .articledashboard h2 {
+        text-align: center;
+        text-align: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        color: gold;
+        font-size: 35px;
+    }
+    .articledashboard a {
+        background-color: gold;
+        text-align: center;
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 100px;
+        text-decoration: none;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: black;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .articledashboard {
         background-color: darkblue;

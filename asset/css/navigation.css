@@ -1,4 +1,4 @@
-.navigation {
+nav {
     background-color: blue;
     width: 430px;
     height: 800px;
@@ -6,12 +6,12 @@
     position: absolute;
 }
 
-.navigation ul {
+nav ul {
     position: relative;
     top: 55px;
 }
 
-.navigation ul li {
+nav ul li {
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.navigation ul li a {
+nav ul li a {
     color: gold;
     font-family: "Russo One", sans-serif;
     font-size: 35px;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .navigation {
+    nav {
         background-color: blue;
         width: 100%;
         height: 400px;
@@ -43,12 +43,12 @@
         position: absolute;
     }
 
-    .navigation ul {
+    nav ul {
         position: relative;
         top: 25px;
     }
 
-    .navigation ul li {
+    nav ul li {
         display: block;
         margin: auto;
         margin-top: 20px;
@@ -56,7 +56,7 @@
         text-align: center;
     }
 
-    .navigation ul li a {
+    nav ul li a {
         color: gold;
         font-family: "Russo One", sans-serif;
         font-size: 35px;
@@ -73,7 +73,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .navigation {
+    nav {
         background: none;
         position: absolute;
         display: block;
@@ -83,14 +83,14 @@
         height: 95px;
     }
 
-    .navigation ul {
+    nav ul {
         display: flex;
         gap: 15px;
         margin-top: 5px;
         margin-left: 95px;
     }
 
-    .navigation ul li {
+    nav ul li {
         margin: 0;
         border: none;
         list-style: none;
@@ -98,7 +98,7 @@
 
     }
 
-    .navigation ul li a {
+    nav ul li a {
         color: gold;
         font-family: "Russo One", sans-serif;
         font-size: 30px;
@@ -116,7 +116,7 @@
 }
 
 @media screen and (min-width: 1600px) {
-    .navigation ul li a {
+    nav ul li a {
         color: gold;
         font-family: "Russo One", sans-serif;
         font-size: 35px;

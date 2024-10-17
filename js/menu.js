@@ -1,5 +1,5 @@
 let button = document.querySelector(".menu");
-let menu = document.querySelector('.navigation');
+let menu = document.querySelector('nav');
 let animation = document.querySelector('.bienvenue')
 console.log(menu);
 

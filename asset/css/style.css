@@ -39,6 +39,13 @@
 @import url(sectionarticle.css);
 @import url(articlewindow.css);
 @import url(ajouter.css);
+@import url(class.css);
+@import url(fightgame.css);
+@import url(horrorgame.css);
+@import url(fightoraventure.css);
+@import url(action.css);
+@import url(retour.css);
+@import url(filter.css);
 
 * {
     margin: 0;
@@ -61,4 +68,12 @@ h3 {
     color: white;
     margin-top: 25px;
     font-size: 30px;
+}
+
+#categories h2 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: gold;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px;
 }

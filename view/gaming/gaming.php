@@ -40,19 +40,20 @@
     <div class="bienvenue">
         <h2>SECTION JEUX VIDEOS</h2>
     </div>
+    <a class="filter" href="/ctrl/categorie/categorie.php">Categories</a>
     <div id="jeux">
         <?php foreach ($listJeu as $jeu) { ?>
             <ul>
                 <?php if ($jeu['age'] == 18) { ?>
-                    <li class="warning"><a href=" /ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="hard">18</span></a></li>
+                    <li class="warning"><a href=" /ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>"><?= $jeu['titre'] ?> <span class="hard">18</span></a></li>
                 <?php } else if ($jeu['age'] == 16) { ?>
-                    <li><a class=" cool" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="sixteen">16</span></a></li>
+                    <li><a class=" cool" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>"><?= $jeu['titre'] ?> <span class="sixteen">16</span></a></li>
                 <?php } else if ($jeu['age'] == 12) { ?>
-                    <li><a class="fine" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="twelve">12</span></a></li>
+                    <li><a class="fine" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>"><?= $jeu['titre'] ?> <span class="twelve">12</span></a></li>
                 <?php } else if ($jeu['age'] == 7) { ?>
-                    <li><a class="light" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="seven">7</span></a></li>
+                    <li><a class="light" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>"><?= $jeu['titre'] ?> <span class="seven">7</span></a></li>
                 <?php } else if ($jeu['age'] == 3) { ?>
-                    <li><a class="kid" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt=""><?= $jeu['titre'] ?> <span class="seven">3</span></a></li>
+                    <li><a class="kid" href="/ctrl/jeu/jeu.php?id=<?= $jeu['id'] ?>"><img src="<?= '/upload/' . $jeu['image'] ?>" alt="<?= $jeu['titre'] ?>"><?= $jeu['titre'] ?> <span class="three">3</span></a></li>
                 <?php } ?>
             </ul>
         <?php } ?>

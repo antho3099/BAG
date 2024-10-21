@@ -26,6 +26,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    .gamenav {
+        display: none;
+    }
+
     .gamenav nav a {
         font-size: 25px;
         margin-top: 2px;
@@ -34,5 +38,11 @@
     #back {
         width: 30px;
 
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .gamenav {
+        display: none;
     }
 }

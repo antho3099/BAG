@@ -16,7 +16,7 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/partial/header.php' ?>
-    <nav>>
+    <nav>
         <ul>
             <li><a href="/ctrl/welcome/welcome.php">Accueil</a></li>
             <li><a href="/ctrl/gaming/gaming.php">Jeux Vidéos</a></li>

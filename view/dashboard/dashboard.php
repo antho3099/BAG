@@ -50,7 +50,6 @@
             <div class="addgame">
                 <h2>Ajouter Jeu/Article</h2>
                 <a href="/ctrl/gameorarticle/gameorarticle.php">C'est parti</a>
-
             </div>
         </div>
     </div>

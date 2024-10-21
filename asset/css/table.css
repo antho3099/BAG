@@ -91,3 +91,57 @@ tbody tr td a:hover {
         font-weight: 100;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    table {
+        text-align: justify;
+        border: 1px solid white;
+        background-color: rgba(0, 0, 139, 0.57);
+        border-radius: 3px;
+        display: block;
+        margin: auto;
+    }
+
+    thead tr th {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: gold;
+        font-size: 25px;
+        text-align: center;
+        width: 290px;
+    }
+
+    tbody {
+        width: 600px;
+    }
+
+    tbody tr td {
+        text-align: justify;
+        color: white;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    tbody .titlegame {
+        width: 500px;
+        padding-right: 25px;
+    }
+
+    tbody .agegame {
+        width: 50px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    tbody tr td a {
+        text-decoration: none;
+        color: gold;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    tbody tr td a:hover {
+        background-color: gold;
+        color: darkblue;
+    }
+}

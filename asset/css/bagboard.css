@@ -128,3 +128,56 @@
     }
 
 }
+
+@media screen and (min-width: 1600px) {
+    .bagboard {
+        background: none;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #dashboardimg {
+        display: none;
+    }
+
+    #dashboardgeek {
+        display: block;
+        width: 500px;
+        margin-right: 155px;
+    }
+
+    .bagboard .dash h2 {
+        font-size: 150px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: gold;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-variant-caps: all-small-caps;
+        font-style: italic;
+        text-align: end;
+        width: 680px;
+        position: relative;
+        right: 250px;
+        top: 55px;
+    }
+
+    .bagboard .dash p {
+        font-family: "Kdam Thmor Pro", sans-serif;
+        font-size: 45px;
+        color: white;
+        bottom: 35px;
+        position: relative;
+        right: 100px;
+        top: 20px;
+        font-style: italic;
+    }
+
+    .bagboard .dash a {
+        position: relative;
+        left: 10px;
+        top: 55px;
+        padding: 10px;
+        padding-left: 115px;
+        padding-right: 115px;
+    }
+}
